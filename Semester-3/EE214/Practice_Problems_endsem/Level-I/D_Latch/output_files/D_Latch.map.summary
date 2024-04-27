@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Sat Nov 04 22:19:01 2023
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : D_Latch
+Top-level Entity Name : D_Latch
+Family : MAX 10
+Total logic elements : 1
+    Total combinational functions : 0
+    Dedicated logic registers : 1
+Total registers : 1
+Total pins : 4
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

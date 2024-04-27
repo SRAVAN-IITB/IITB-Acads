@@ -1,0 +1,218 @@
+|DUT
+input_vector[0] => Full_subtractor:add_instance.C
+input_vector[1] => Full_subtractor:add_instance.B
+input_vector[2] => Full_subtractor:add_instance.A
+output_vector[0] <= Full_subtractor:add_instance.Bor
+output_vector[1] <= Full_subtractor:add_instance.Dif
+
+
+|DUT|Full_subtractor:add_instance
+A => NOR_2:NOR1.A
+A => NOR_2:NOR1.B
+A => XOR_gate:XOR2.A
+B => XOR_gate:XOR1.A
+B => AND_gate:AND2.B
+B => XOR_gate:XOR2.B
+C => XOR_gate:XOR1.B
+C => AND_gate:AND2.A
+C => XOR_gate:XOR3.B
+Dif <= XOR_gate:XOR3.Y
+Bor <= OR_gate:OR1.Y
+
+
+|DUT|Full_subtractor:add_instance|NOR_2:NOR1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Full_subtractor:add_instance|XOR_gate:XOR1
+A => NOR_2:NOR1.A
+A => NOR_2:NOR2.A
+A => NOR_2:NOR2.B
+B => NOR_2:NOR1.B
+B => NOR_2:NOR3.A
+B => NOR_2:NOR3.B
+Y <= NOR_2:NOR5.Y
+
+
+|DUT|Full_subtractor:add_instance|XOR_gate:XOR1|NOR_2:NOR1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Full_subtractor:add_instance|XOR_gate:XOR1|NOR_2:NOR2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Full_subtractor:add_instance|XOR_gate:XOR1|NOR_2:NOR3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Full_subtractor:add_instance|XOR_gate:XOR1|NOR_2:NOR4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Full_subtractor:add_instance|XOR_gate:XOR1|NOR_2:NOR5
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Full_subtractor:add_instance|AND_gate:AND1
+A => NOR_2:NOR1.A
+A => NOR_2:NOR1.B
+B => NOR_2:NOR2.A
+B => NOR_2:NOR2.B
+Y <= NOR_2:NOR3.Y
+
+
+|DUT|Full_subtractor:add_instance|AND_gate:AND1|NOR_2:NOR1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Full_subtractor:add_instance|AND_gate:AND1|NOR_2:NOR2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Full_subtractor:add_instance|AND_gate:AND1|NOR_2:NOR3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Full_subtractor:add_instance|AND_gate:AND2
+A => NOR_2:NOR1.A
+A => NOR_2:NOR1.B
+B => NOR_2:NOR2.A
+B => NOR_2:NOR2.B
+Y <= NOR_2:NOR3.Y
+
+
+|DUT|Full_subtractor:add_instance|AND_gate:AND2|NOR_2:NOR1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Full_subtractor:add_instance|AND_gate:AND2|NOR_2:NOR2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Full_subtractor:add_instance|AND_gate:AND2|NOR_2:NOR3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Full_subtractor:add_instance|OR_gate:OR1
+A => NOR_2:NOR1.A
+B => NOR_2:NOR1.B
+Y <= NOR_2:NOR2.Y
+
+
+|DUT|Full_subtractor:add_instance|OR_gate:OR1|NOR_2:NOR1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Full_subtractor:add_instance|OR_gate:OR1|NOR_2:NOR2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Full_subtractor:add_instance|XOR_gate:XOR2
+A => NOR_2:NOR1.A
+A => NOR_2:NOR2.A
+A => NOR_2:NOR2.B
+B => NOR_2:NOR1.B
+B => NOR_2:NOR3.A
+B => NOR_2:NOR3.B
+Y <= NOR_2:NOR5.Y
+
+
+|DUT|Full_subtractor:add_instance|XOR_gate:XOR2|NOR_2:NOR1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Full_subtractor:add_instance|XOR_gate:XOR2|NOR_2:NOR2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Full_subtractor:add_instance|XOR_gate:XOR2|NOR_2:NOR3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Full_subtractor:add_instance|XOR_gate:XOR2|NOR_2:NOR4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Full_subtractor:add_instance|XOR_gate:XOR2|NOR_2:NOR5
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Full_subtractor:add_instance|XOR_gate:XOR3
+A => NOR_2:NOR1.A
+A => NOR_2:NOR2.A
+A => NOR_2:NOR2.B
+B => NOR_2:NOR1.B
+B => NOR_2:NOR3.A
+B => NOR_2:NOR3.B
+Y <= NOR_2:NOR5.Y
+
+
+|DUT|Full_subtractor:add_instance|XOR_gate:XOR3|NOR_2:NOR1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Full_subtractor:add_instance|XOR_gate:XOR3|NOR_2:NOR2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Full_subtractor:add_instance|XOR_gate:XOR3|NOR_2:NOR3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Full_subtractor:add_instance|XOR_gate:XOR3|NOR_2:NOR4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Full_subtractor:add_instance|XOR_gate:XOR3|NOR_2:NOR5
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+

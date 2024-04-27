@@ -1,0 +1,28 @@
+library ieee;
+use ieee.std_logic_1164.all;
+library work;
+use work.Gates.all;
+
+entity BCD_Adder is
+port (A_3, A_2, A_1, A_0, B_3, B_2, B_1, B_0: in std_logic; Cout, S_3, S_2, S_1, S_0 : out std_logic);
+end entity BCD_Adder;
+
+architecture Struct of BCD_Adder is
+--TO BE CHECKED!
+signal S_3', S_2', S_1', S_0', C', andS32, andS31, donokaOR, Z : std_logic;
+
+component fourbit_adder is
+	port (A_3, A_2, A_1, A_0, B_3, B_2, B_1, B_0: in std_logic; Cout, S_3, S_2, S_1, S_0 : out std_logic);
+end component;
+
+begin
+	zero <= '0'
+  --component instances
+  
+  fourbit_adder_0 : fourbit_adder port map (A_3 => A_3, A_2 => A_2, A_1 => A_1, A_0 => A_0, B_3 => B_3, B_2 => B_2, B_1 => B_1, B_0 => B_0, Cout => C', S_3 => S_3', S_2 => S_2', S_1 => S_1', S_0 => S_0');
+  fourbit_adder_1 : fourbit_adder port map (A_3 => S_3', A_2 => S_2', A_1 => S_1', A_0 => S_0', B_3 => zero, B_2 => Z, B_1 => Z, B_0 => zero, Cout => Cout, S_3 => S_3, S_2 => S_2, S_1 => S_1, S_0 => S_0);
+  AND1 : AND_2 port map (A => S_3', B => S_2', Y => andS32);
+  AND2 : AND_2 port map (A => S_3', B => S_1', Y => andS31);
+  OR1 : OR_2 port map (A => andS32, B => andS31, Y => donokaOR);
+  OR2 : OR_2 port map (A => donokaOR, B => C, Y => Cout);
+  end Struct;

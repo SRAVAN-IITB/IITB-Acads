@@ -1,0 +1,32 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity Testbench is
+end Testbench;
+
+architecture Behav of Testbench is
+	component FOURSYNCDOWN is
+	port (Clock, Enable, Preset, Reset : in std_logic;
+			Counter : out std_logic(3 downto 0));
+	end component FOURSYNCDOWN;
+	
+	signal Enable, Clock, Preset, Reset : std_logic;
+	signal Counter : std_logic_vector(3 downto 0);
+	
+	begin
+	ClockProc : process
+	begin
+		Clock <= '1';
+		wait for 10 ns;
+		Clock <= '0';
+		wait for 10 ns;
+	end process;
+	
+	Enable <= '0', '1' after 60 ns;
+	Preset <= '1', '0' after 20 ns;
+	Reset <= '1', '0' after 40 ns;
+	
+	CounterInst : FOURSYNCDOWN port map (Clock => Clock, Enable => Enable,
+													 Preset => Preset, Reset => Reset,
+													 Counter => Counter);	
+end Behav;

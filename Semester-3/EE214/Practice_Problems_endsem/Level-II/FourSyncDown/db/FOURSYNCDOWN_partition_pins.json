@@ -1,0 +1,41 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Counter[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Counter[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Counter[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Counter[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Preset",
+					"strict" : false
+				},
+				{
+					"name" : "Reset",
+					"strict" : false
+				},
+				{
+					"name" : "Clock",
+					"strict" : false
+				},
+				{
+					"name" : "Enable",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

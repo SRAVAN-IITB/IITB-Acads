@@ -1,0 +1,28 @@
+library IEEE;
+use.IEEE.std_logic_1164.all;
+
+entity Testbench is
+end entity;
+
+architecture TB_BHV of Testbench is
+
+	component Asynch_Up_Ctr_4bit is
+		port(clock : in std_logic; Q1, Q1Bar, Q2, Q2Bar, Q3, Q3Bar, Q4, Q4Bar : out std_logic);
+	end component Asynch_Up_Ctr_4bit;
+	
+	signal clock : std_logic := '0';
+	signal Q1, Q1Bar, Q2, Q2Bar, Q3, Q3Bar, Q4, Q4Bar : std_logic;
+	
+	begin
+			clock <= not clock after 10ns;
+		Asynch_Up_Ctr_4bit1 : Asynch_Up_Ctr_4bit PORT MAP(clock, Q1, Q1Bar, Q2, Q2Bar, Q3, Q3Bar, Q4, Q4Bar);
+		
+		end_sim : process
+		begin
+			wait for 150ns;
+			ASSERT False
+			REPORT "Sim ended"
+			SEVERITY failure;
+		end process end_sim;
+		
+end TB_BHV;

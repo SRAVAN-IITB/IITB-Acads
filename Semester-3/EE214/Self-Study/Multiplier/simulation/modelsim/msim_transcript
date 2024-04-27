@@ -1,0 +1,137 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do DUT_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/PRACTICE/Multiplier/Gates.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:05:14 on Sep 23,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/PRACTICE/Multiplier/Gates.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package Gates
+# -- Compiling entity INVERTER
+# -- Compiling architecture Equations of INVERTER
+# -- Compiling entity AND_2
+# -- Compiling architecture Equations of AND_2
+# -- Compiling entity AND_3
+# -- Compiling architecture Equations of AND_3
+# -- Compiling entity AND_4
+# -- Compiling architecture Equations of AND_4
+# -- Compiling entity NAND_2
+# -- Compiling architecture Equations of NAND_2
+# -- Compiling entity NAND_3
+# -- Compiling architecture Equations of NAND_3
+# -- Compiling entity NAND_4
+# -- Compiling architecture Equations of NAND_4
+# -- Compiling entity OR_2
+# -- Compiling architecture Equations of OR_2
+# -- Compiling entity OR_3
+# -- Compiling architecture Equations of OR_3
+# -- Compiling entity OR_4
+# -- Compiling architecture Equations of OR_4
+# -- Compiling entity NOR_2
+# -- Compiling architecture Equations of NOR_2
+# -- Compiling entity NOR_3
+# -- Compiling architecture Equations of NOR_3
+# -- Compiling entity NOR_4
+# -- Compiling architecture Equations of NOR_4
+# -- Compiling entity XOR_2
+# -- Compiling architecture Equations of XOR_2
+# -- Compiling entity XOR_3
+# -- Compiling architecture Equations of XOR_3
+# -- Compiling entity XOR_4
+# -- Compiling architecture Equations of XOR_4
+# -- Compiling entity XNOR_2
+# -- Compiling architecture Equations of XNOR_2
+# -- Compiling entity XNOR_3
+# -- Compiling architecture Equations of XNOR_3
+# -- Compiling entity XNOR_4
+# -- Compiling architecture Equations of XNOR_4
+# -- Compiling entity HALF_ADDER
+# -- Compiling architecture Equations of HALF_ADDER
+# -- Compiling entity FULL_ADDER
+# -- Compiling architecture Equations of FULL_ADDER
+# End time: 18:05:14 on Sep 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/PRACTICE/Multiplier/DUT.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:05:14 on Sep 23,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/PRACTICE/Multiplier/DUT.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity DUT
+# -- Compiling architecture DutWrap of DUT
+# End time: 18:05:14 on Sep 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/PRACTICE/Multiplier/4-bit_adder.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:05:15 on Sep 23,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/PRACTICE/Multiplier/4-bit_adder.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package Gates
+# -- Compiling entity Fourbit_Adder
+# -- Compiling architecture Struct of Fourbit_Adder
+# End time: 18:05:15 on Sep 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/PRACTICE/Multiplier/mult.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:05:15 on Sep 23,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/PRACTICE/Multiplier/mult.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package Gates
+# -- Compiling entity mult
+# -- Compiling architecture Struct of mult
+# End time: 18:05:15 on Sep 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/PRACTICE/Multiplier/Testbench.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:05:15 on Sep 23,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/PRACTICE/Multiplier/Testbench.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Testbench
+# -- Compiling architecture Behave of Testbench
+# End time: 18:05:15 on Sep 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 18:05:15 on Sep 23,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.testbench(behave)
+# Loading work.dut(dutwrap)
+# Loading work.gates
+# Loading work.mult(struct)
+# Loading work.and_2(equations)
+# Loading work.fourbit_adder(struct)
+# Loading work.half_adder(equations)
+# Loading work.full_adder(equations)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: SUCCESS, all tests passed.
+#    Time: 1792 ns  Iteration: 0  Instance: /testbench
+# End time: 18:05:53 on Sep 23,2023, Elapsed time: 0:00:38
+# Errors: 0, Warnings: 0

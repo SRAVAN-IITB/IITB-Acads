@@ -1,0 +1,112 @@
+# Reading pref.tcl
+# ERROR: No extended dataflow license exists
+# do DUT_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/student/Desktop/22b3936_Lab2/4x1_MUX/Gates.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:17:58 on Aug 18,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/student/Desktop/22b3936_Lab2/4x1_MUX/Gates.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package Gates
+# -- Compiling entity INVERTER
+# -- Compiling architecture Equations of INVERTER
+# -- Compiling entity AND_2
+# -- Compiling architecture Equations of AND_2
+# -- Compiling entity NAND_2
+# -- Compiling architecture Equations of NAND_2
+# -- Compiling entity OR_2
+# -- Compiling architecture Equations of OR_2
+# -- Compiling entity NOR_2
+# -- Compiling architecture Equations of NOR_2
+# -- Compiling entity XOR_2
+# -- Compiling architecture Equations of XOR_2
+# -- Compiling entity XNOR_2
+# -- Compiling architecture Equations of XNOR_2
+# -- Compiling entity HALF_ADDER
+# -- Compiling architecture Equations of HALF_ADDER
+# End time: 15:17:58 on Aug 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/student/Desktop/22b3936_Lab2/4x1_MUX/DUT.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:17:58 on Aug 18,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/student/Desktop/22b3936_Lab2/4x1_MUX/DUT.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity DUT
+# -- Compiling architecture DutWrap of DUT
+# End time: 15:17:58 on Aug 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/student/Desktop/22b3936_Lab2/2x1_MUX/2x1_MUX.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:17:58 on Aug 18,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/student/Desktop/22b3936_Lab2/2x1_MUX/2x1_MUX.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package Gates
+# -- Compiling entity MUX_2x1
+# -- Compiling architecture Struct of MUX_2x1
+# End time: 15:17:59 on Aug 18,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/student/Desktop/22b3936_Lab2/4x1_MUX/4x1_MUX.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:17:59 on Aug 18,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/student/Desktop/22b3936_Lab2/4x1_MUX/4x1_MUX.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package Gates
+# -- Compiling entity MUX_4x1
+# -- Compiling architecture Struct of MUX_4x1
+# End time: 15:17:59 on Aug 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {C:/Users/student/Desktop/22b3936_Lab2/4x1_MUX/Testbench.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:17:59 on Aug 18,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/student/Desktop/22b3936_Lab2/4x1_MUX/Testbench.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Testbench
+# -- Compiling architecture Behave of Testbench
+# End time: 15:17:59 on Aug 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  Testbench
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs=""+acc"" Testbench 
+# Start time: 15:17:59 on Aug 18,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.testbench(behave)
+# Loading work.dut(dutwrap)
+# Loading work.gates
+# Loading work.mux_4x1(struct)
+# Loading work.mux_2x1(struct)
+# Loading work.inverter(equations)
+# Loading work.and_2(equations)
+# Loading work.or_2(equations)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: SUCCESS, all tests passed.
+#    Time: 896 ns  Iteration: 0  Instance: /testbench
+# End time: 15:18:15 on Aug 18,2023, Elapsed time: 0:00:16
+# Errors: 0, Warnings: 0

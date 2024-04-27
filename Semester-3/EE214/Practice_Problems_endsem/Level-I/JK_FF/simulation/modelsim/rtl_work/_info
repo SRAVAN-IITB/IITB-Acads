@@ -1,0 +1,49 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Practice_Problems/Level-I/JK_FF/simulation/modelsim
+Ejk_flipflop
+Z1 w1699117082
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Practice_Problems/Level-I/JK_FF/JK_FlipFlop.vhdl
+Z5 FC:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Practice_Problems/Level-I/JK_FF/JK_FlipFlop.vhdl
+l0
+L4
+VF22>g]n@EB1<;A`EHUXM91
+!s100 YYbG_@7g129_5<B;SdCa;3
+Z6 OV;C;10.5b;63
+31
+Z7 !s110 1699117111
+!i10b 1
+Z8 !s108 1699117111.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Practice_Problems/Level-I/JK_FF/JK_FlipFlop.vhdl|
+Z10 !s107 C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Practice_Problems/Level-I/JK_FF/JK_FlipFlop.vhdl|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Abhv
+R2
+R3
+DEx4 work 11 jk_flipflop 0 22 F22>g]n@EB1<;A`EHUXM91
+l15
+L12
+V2F49j?XE;<ZR_kQJY>EnN0
+!s100 Z9nYj6Z0R30e8Kjn1ZhH:1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12

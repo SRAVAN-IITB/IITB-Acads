@@ -1,0 +1,105 @@
+library ieee;
+use ieee.std_logic_1164.all;
+entity alu_beh is
+port (
+A: in std_logic_vector(3 downto 0);
+B: in std_logic_vector(3 downto 0);
+sel: in std_logic_vector(1 downto 0);
+op: out std_logic_vector(7 downto 0)
+) ;
+end alu_beh;
+
+component Full_adder is
+	port (A, B, C: in std_logic; Sum, Cout: out std_logic);
+end component Full_adder;
+
+architecture a1 of alu_beh is
+
+function concat(A: in std_logic_vector(3 downto 0); B: in std_logic_vector(3 downto 0))
+return std_logic_vector is
+-- declaring and initializing variables using aggregates
+variable AB : std_logic_vector(7 downto 0):=(others =>'0');
+--variable Anew: std_logic_vector(7 downto 0):=(others =>'0');
+--variable Bnew: std_logic_vector(7 downto 0):=(others =>'0');
+begin
+A_loop: for i in 4 to 7 loop
+AB(i):= ('0' or A(i));
+end loop A_loop;
+
+B_loop: for i in 0 to 3 loop
+AB(i):= ('0' or B(i));
+end loop B_loop;
+
+return AB;
+
+function sub(A: in std_logic_vector(3 downto 0); B: in std_logic_vector(3 downto 0))
+return std_logic_vector is
+-- declaring and initializing variables using aggregates
+variable diff : std_logic_vector(7 downto 0):=(others =>'0');
+variable carry: std_logic:= '1';
+variable tempA: std_logic_vector(7 downto 0):=(others=>’1’);
+variable reciever: std_logic_vector(1 downto 0);
+
+begin
+-- Hint: Use for loop to calculate value of "diff" and "carry" variable
+-- Use aggregates to assign values to multiple bits
+ones_complement_loop: for i in 0 to 7 loop
+tempB(i):= (’1’ xor B(i));
+end loop ones_complement_loop;
+
+twos_complement_loop: for i in 0 to 7 loop
+reciever:= full_adder(’0’, tempB(i), carry);
+tempB(i) := reciever(0);
+carry :=reciever(1);
+end loop twos_complement_loop;
+carry:=’0’;
+FullAdd_loop: for i in 0 to 7 loop
+reciever:=full_adder(A(i), tempB(i), carry);
+diff(i) := reciever(0);
+carry := reciever(1);
+end loop FullAdd_loop;
+
+return diff;
+end sub;
+
+function xorring(A: in std_logic_vector(3 downto 0); B: in std_logic_vector(3 downto 0))
+return std_logic_vector is
+-- declaring and initializing variables using aggregates
+variable AxorB : std_logic_vector(7 downto 0):=(others =>'0');
+
+begin
+xorring_loop: for i in 0 to 3 loop
+AxorB(i):= (A(i) xor B(i));
+end loop xorring_loop;
+
+return AxorB;
+
+function doubleA(A: in std_logic_vector(3 downto 0); B: in std_logic_vector(3 downto 0))
+return std_logic_vector is
+-- declaring and initializing variables using aggregates
+variable Atwice : std_logic_vector(7 downto 0):=(others =>'0');
+variable carry : std_logic := ’0’;
+
+begin
+  HA1 : HALF_ADDER port map (A => A(0), B => B(0), S => Atwice(0), C => carry);
+	  doubleA_loop: for i in 1 to 3 loop
+		fulladd : Full_adder port map (A => A(i), B => B(i), C => carry, 
+												Sum => Atwice(i), Cout => carry);  
+	  end loop doubleA_loop;
+return Atwice;
+
+begin
+alu : process( A, B, sel )
+begin
+	case sel is
+		when "00" =>
+			op <= concat(A,B);
+		when "01" =>
+			op <= sub(A,B);
+		when "10" =>
+			op <= xorring(A,B);
+		when "11" =>
+			op <= doubleA(A,B);
+			
+end process ; --alu
+end a1 ; -- a1

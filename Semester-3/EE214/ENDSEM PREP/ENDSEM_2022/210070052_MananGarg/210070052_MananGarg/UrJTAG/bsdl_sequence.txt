@@ -1,0 +1,59 @@
+UrJTAG 0.10 #1502
+Copyright (C) 2002, 2003 ETC s.r.o.
+Copyright (C) 2007, 2008, 2009 Kolja Waschk and the respective authors
+
+UrJTAG is free software, covered by the GNU General Public License, and you are
+welcome to change it and/or distribute copies of it under certain conditions.
+There is absolutely no warranty for UrJTAG.
+
+WARNING: UrJTAG may damage your hardware!
+Type "quit" to exit, "help" for help.
+
+jtag> cable ft2232
+Connected to libftd2xx driver.
+
+jtag> bsdl test  C:\Users\swapnil\Desktop\max10_files\UrJTAG\data\10M08SAE144_15
+32.bsd
+
+-N- Reading file 'C:\Users\swapnil\Desktop\max10_files\UrJTAG\data\10M08SAE144_1
+532.bsd'
+-N- BSDL file 'C:\Users\swapnil\Desktop\max10_files\UrJTAG\data\10M08SAE144_1532
+.bsd' passed VHDL stage correctly
+-W- Line 147, Multiple opcode patterns are not supported, first pattern will be
+used.
+-W- Line 147, Multiple opcode patterns are not supported, first pattern will be
+used.
+-W- Line 147, Multiple opcode patterns are not supported, first pattern will be
+used.
+
+-N- Got IDCODE: 00000011000110000010000011011101
+-N- BSDL file 'C:\Users\swapnil\Desktop\max10_files\UrJTAG\data\10M08SAE144_1532
+.bsd' passed BSDL stage correctly
+jtag>
+jtag>
+jtag>
+jtag>
+jtag> bsdl dump
+jtag> print
+Run "detect" first.
+jtag> detect
+IR length: 10
+Chain length: 1
+Device Id: 00000011000110000010000011011101 (0x00000000031820DD)
+  Manufacturer: Altera
+  Part(0):         10M08SAE144
+  Stepping:     1
+  Filename:     c:\users\swapnil\desktop\max10_files\urjtag\data/altera/10m08sae
+144/10m08sae144
+-W- Line 147, Multiple opcode patterns are not supported, first pattern will be
+used.
+-W- Line 147, Multiple opcode patterns are not supported, first pattern will be
+used.
+-W- Line 147, Multiple opcode patterns are not supported, first pattern will be
+used.
+
+
+
+jtag> svf C:\Users\swapnil\Desktop\max10_files\UrJTAG\Board_Test_Led_Switch.svf
+Warning svf: unimplemented mode 'ABSENT' for TRST
+jtag>

@@ -1,0 +1,12 @@
+|JK_FlipFlop
+J => Mux0.IN4
+K => Mux0.IN5
+Clock => NextState.CLK
+Enable => NextState.ENA
+Preset => NextState.ACLR
+Preset => NextState.IN0
+Reset => NextState.IN1
+Q <= NextState.DB_MAX_OUTPUT_PORT_TYPE
+NotQ <= NextState.DB_MAX_OUTPUT_PORT_TYPE
+
+

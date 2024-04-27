@@ -1,0 +1,21 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "output_vector[0]",
+					"strict" : false
+				},
+				{
+					"name" : "input_vector[0]",
+					"strict" : false
+				},
+				{
+					"name" : "input_vector[1]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

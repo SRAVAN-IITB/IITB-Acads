@@ -1,0 +1,88 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/ENDSEM PRACTICE/BCDtoSeven-Segment_Display/simulation/modelsim
+Ebcdtosevensegment_display_bhv_usingcase
+Z1 w1699379223
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/ENDSEM PRACTICE/BCDtoSeven-Segment_Display/BCDtoSevenSegment_Display_bhv_usingCASE.vhdl
+Z5 FC:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/ENDSEM PRACTICE/BCDtoSeven-Segment_Display/BCDtoSevenSegment_Display_bhv_usingCASE.vhdl
+l0
+L4
+VI[P4XlX;H9EdC`l[aZXgl1
+!s100 IFQGRAQXDWnzcKY5P3J[31
+Z6 OV;C;10.5b;63
+31
+Z7 !s110 1699379486
+!i10b 1
+Z8 !s108 1699379486.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/ENDSEM PRACTICE/BCDtoSeven-Segment_Display/BCDtoSevenSegment_Display_bhv_usingCASE.vhdl|
+Z10 !s107 C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/ENDSEM PRACTICE/BCDtoSeven-Segment_Display/BCDtoSevenSegment_Display_bhv_usingCASE.vhdl|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+DEx4 work 39 bcdtosevensegment_display_bhv_usingcase 0 22 I[P4XlX;H9EdC`l[aZXgl1
+l11
+L9
+VJ?K8B``>NQ;KMGW1^lBI60
+!s100 SZbHn4bM9fo?X73@Ee_hL1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Etb_bcd_7seg
+Z13 w1699379434
+R2
+R3
+R0
+Z14 8C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/ENDSEM PRACTICE/BCDtoSeven-Segment_Display/tb_bcd_7seg.vhdl
+Z15 FC:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/ENDSEM PRACTICE/BCDtoSeven-Segment_Display/tb_bcd_7seg.vhdl
+l0
+L4
+VMfO1;PVg205RXDloX:Keb1
+!s100 _UC;P30ACFUOS3d;eEVRX2
+R6
+31
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-93|-work|work|C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/ENDSEM PRACTICE/BCDtoSeven-Segment_Display/tb_bcd_7seg.vhdl|
+Z17 !s107 C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/ENDSEM PRACTICE/BCDtoSeven-Segment_Display/tb_bcd_7seg.vhdl|
+!i113 1
+R11
+R12
+Abehavior
+R2
+R3
+DEx4 work 11 tb_bcd_7seg 0 22 MfO1;PVg205RXDloX:Keb1
+l24
+L7
+V5;n`jNF?02olzoTZg=leo1
+!s100 _kckQT7;3X8Y1m9eWgcH`0
+R6
+31
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12

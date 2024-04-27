@@ -1,0 +1,68 @@
+|FourBitAsyncUp
+Clock => JK_FlipFlop:JKFF1.Clock
+Counter[0] <= JK_FlipFlop:JKFF1.Q
+Counter[1] <= JK_FlipFlop:GenFF:1:JKFF_Inst.Q
+Counter[2] <= JK_FlipFlop:GenFF:2:JKFF_Inst.Q
+Counter[3] <= JK_FlipFlop:GenFF:3:JKFF_Inst.Q
+Enable => JK_FlipFlop:JKFF1.Enable
+Enable => JK_FlipFlop:GenFF:1:JKFF_Inst.Enable
+Enable => JK_FlipFlop:GenFF:2:JKFF_Inst.Enable
+Enable => JK_FlipFlop:GenFF:3:JKFF_Inst.Enable
+Preset => JK_FlipFlop:JKFF1.Preset
+Preset => JK_FlipFlop:GenFF:1:JKFF_Inst.Preset
+Preset => JK_FlipFlop:GenFF:2:JKFF_Inst.Preset
+Preset => JK_FlipFlop:GenFF:3:JKFF_Inst.Preset
+Reset => JK_FlipFlop:JKFF1.Reset
+Reset => JK_FlipFlop:GenFF:1:JKFF_Inst.Reset
+Reset => JK_FlipFlop:GenFF:2:JKFF_Inst.Reset
+Reset => JK_FlipFlop:GenFF:3:JKFF_Inst.Reset
+
+
+|FourBitAsyncUp|JK_FlipFlop:JKFF1
+J => Mux0.IN4
+K => Mux0.IN5
+Clock => NextState.CLK
+Enable => NextState.ENA
+Preset => NextState.PRESET
+Preset => NextState.IN0
+Reset => NextState.IN1
+Q <= NextState.DB_MAX_OUTPUT_PORT_TYPE
+NotQ <= NextState.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FourBitAsyncUp|JK_FlipFlop:\GenFF:1:JKFF_Inst
+J => Mux0.IN4
+K => Mux0.IN5
+Clock => NextState.CLK
+Enable => NextState.ENA
+Preset => NextState.PRESET
+Preset => NextState.IN0
+Reset => NextState.IN1
+Q <= NextState.DB_MAX_OUTPUT_PORT_TYPE
+NotQ <= NextState.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FourBitAsyncUp|JK_FlipFlop:\GenFF:2:JKFF_Inst
+J => Mux0.IN4
+K => Mux0.IN5
+Clock => NextState.CLK
+Enable => NextState.ENA
+Preset => NextState.PRESET
+Preset => NextState.IN0
+Reset => NextState.IN1
+Q <= NextState.DB_MAX_OUTPUT_PORT_TYPE
+NotQ <= NextState.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FourBitAsyncUp|JK_FlipFlop:\GenFF:3:JKFF_Inst
+J => Mux0.IN4
+K => Mux0.IN5
+Clock => NextState.CLK
+Enable => NextState.ENA
+Preset => NextState.PRESET
+Preset => NextState.IN0
+Reset => NextState.IN1
+Q <= NextState.DB_MAX_OUTPUT_PORT_TYPE
+NotQ <= NextState.DB_MAX_OUTPUT_PORT_TYPE
+
+

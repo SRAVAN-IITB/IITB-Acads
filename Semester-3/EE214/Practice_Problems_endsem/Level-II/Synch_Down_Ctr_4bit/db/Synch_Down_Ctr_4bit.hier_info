@@ -1,0 +1,39 @@
+|Synch_Down_Ctr_4bit
+clock => D_Latch:D_FF1.clock
+clock => D_Latch:D_FF2.clock
+clock => D_Latch:D_FF3.clock
+clock => D_Latch:D_FF4.clock
+counter[0] <= D_Latch:D_FF1.Q
+counter[1] <= D_Latch:D_FF2.Q
+counter[2] <= D_Latch:D_FF3.Q
+counter[3] <= D_Latch:D_FF4.Q
+
+
+|Synch_Down_Ctr_4bit|D_Latch:D_FF1
+clock => buff.CLK
+D => buff.DATAIN
+Q <= buff.DB_MAX_OUTPUT_PORT_TYPE
+QBAR <= buff.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_Down_Ctr_4bit|D_Latch:D_FF2
+clock => buff.CLK
+D => buff.DATAIN
+Q <= buff.DB_MAX_OUTPUT_PORT_TYPE
+QBAR <= buff.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_Down_Ctr_4bit|D_Latch:D_FF3
+clock => buff.CLK
+D => buff.DATAIN
+Q <= buff.DB_MAX_OUTPUT_PORT_TYPE
+QBAR <= buff.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_Down_Ctr_4bit|D_Latch:D_FF4
+clock => buff.CLK
+D => buff.DATAIN
+Q <= buff.DB_MAX_OUTPUT_PORT_TYPE
+QBAR <= buff.DB_MAX_OUTPUT_PORT_TYPE
+
+

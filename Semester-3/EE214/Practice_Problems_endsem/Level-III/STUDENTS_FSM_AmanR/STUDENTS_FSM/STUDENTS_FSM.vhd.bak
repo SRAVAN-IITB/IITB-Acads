@@ -1,0 +1,21 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity STUDENTS_FSM is
+	port ( reset, clock : in std_logic; L : in std_logic_vector(4 downto 0); output : out std_logic);
+end STUDENTS_FSM;
+
+architecture BHV of STUDENTS_FSM is
+	component DFF_JK is
+		port( D, clock, enable, preset, reset : in std_logic; Q,QBAR : out std_logic);
+	end component DFF_JK;
+	singal SBAR : std_logic_vector(3 
+	signal S2,S1,S0,D0,D1,D2 : std_logic;
+begin
+	D_2: DFF_JK port map ( D2, clock, '1', '0', '0',  S2, SBAR(2));
+	D_1: DFF_JK port map ( D1, clock, '1', '0', '0',  S1, SBAR(1));
+	D_0: DFF_JK port map ( D0, clock, '1', '0', '0',  S0, SBAR(0));
+
+	S2_CHANGE = ( (not S2) or S1 or S0 or L(2) or (not L(0)) or (not L(1)) or (not L(3)) or (not L(4))) 
+					or (  S2 or S1 or S0 or L(2) or (not L(0)) or (not L(1)) or (not L(3)) or (not L(4))) 
+end BHV;

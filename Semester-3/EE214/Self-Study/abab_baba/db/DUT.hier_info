@@ -1,0 +1,51 @@
+|DUT
+input_vector[0] => seqDetector:seq_instance.clock
+input_vector[1] => seqDetector:seq_instance.inp
+input_vector[2] => seqDetector:seq_instance.reset
+output_vector[0] << seqDetector:seq_instance.y
+
+
+|DUT|seqDetector:seq_instance
+reset => dff_reset:dFlipFlop_0.reset
+reset => dff_reset:dFlipFlop_1.reset
+reset => dff_reset:dFlipFlop_2.reset
+reset => d0.IN1
+reset => d1.IN1
+reset => d2.IN1
+inp => d1.IN1
+inp => d1.IN1
+inp => d2.IN1
+inp => y.IN1
+inp => d0.IN1
+inp => d0.IN1
+inp => d0.IN1
+inp => d2.IN1
+inp => d2.IN1
+inp => y.IN1
+clock => dff_reset:dFlipFlop_0.clock
+clock => dff_reset:dFlipFlop_1.clock
+clock => dff_reset:dFlipFlop_2.clock
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|seqDetector:seq_instance|dff_reset:dFlipFlop_0
+D => Q~reg0.DATAIN
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|seqDetector:seq_instance|dff_reset:dFlipFlop_1
+D => Q~reg0.DATAIN
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|seqDetector:seq_instance|dff_reset:dFlipFlop_2
+D => Q~reg0.DATAIN
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

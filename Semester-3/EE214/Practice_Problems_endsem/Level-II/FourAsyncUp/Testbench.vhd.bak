@@ -1,0 +1,26 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity Testbench is
+end entity Testbench;
+
+architecture Behav of Testbench is
+	component FOURBITASYNCUP is
+	port (Clock : in std_logic;
+			Counter : out std_logic_vector(3 downto 0));
+	end component FOURBITASYNCUP;
+	
+	signal Clock : std_logic;
+	signal Counter : std_logic_vector(3 downto 0);
+	
+	begin
+		ClockProc : process
+		begin
+			Clock <= '1';
+			wait for 10 ns;
+			Clock <= '0';
+			wait for 10 ns;
+		end process;
+		
+		CounterInst : FOURBITASYNCUP port map (Clock => Clock, Counter => Counter);
+end Behav;

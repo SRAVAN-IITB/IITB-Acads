@@ -1,0 +1,16 @@
+|DUT
+input_vector[0] => SequenceGenerator:add_instance.clock
+input_vector[1] => SequenceGenerator:add_instance.reset
+output_vector[0] << SequenceGenerator:add_instance.y
+
+
+|DUT|SequenceGenerator:add_instance
+reset => Q[0].PRESET
+reset => Q[1].ACLR
+reset => Q[2].ACLR
+clock => Q[0].CLK
+clock => Q[1].CLK
+clock => Q[2].CLK
+y <= Q[0].DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,585 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Lab1_22B3936/Full_subtractor/simulation/modelsim
+Eand_2
+Z1 w1624765260
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Lab1_22B3936/Full_subtractor/Gates.vhdl
+Z5 FC:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Lab1_22B3936/Full_subtractor/Gates.vhdl
+l0
+L53
+VU7DI`Tzl@EfAQ?4z53E2F2
+!s100 1`nWBgISBZCVoBKm`L3TM3
+Z6 OV;C;10.5b;63
+31
+Z7 !s110 1692893263
+!i10b 1
+Z8 !s108 1692893262.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Lab1_22B3936/Full_subtractor/Gates.vhdl|
+Z10 !s107 C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Lab1_22B3936/Full_subtractor/Gates.vhdl|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Aequations
+R2
+R3
+DEx4 work 5 and_2 0 22 U7DI`Tzl@EfAQ?4z53E2F2
+l58
+L57
+Vlhgfe[LY0eM?e_R:VHaZ:1
+!s100 6Ea@T?V>e39O6cgPlk<iS0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eand_gate
+Z13 w1691723696
+Z14 DPx4 work 5 gates 0 22 @eB5S<QWaBmXNA4jc;3?G2
+R2
+R3
+R0
+Z15 8C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Lab1_22B3936/AND/AND_gate.vhdl
+Z16 FC:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Lab1_22B3936/AND/AND_gate.vhdl
+l0
+L6
+VLgZ=JzgT8AlYT;3`GZHBC3
+!s100 _9SmKB72Rl]HJ;=KlUOmg0
+R6
+31
+R7
+!i10b 1
+Z17 !s108 1692893263.000000
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Lab1_22B3936/AND/AND_gate.vhdl|
+Z19 !s107 C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Lab1_22B3936/AND/AND_gate.vhdl|
+!i113 1
+R11
+R12
+Astruct
+R14
+R2
+R3
+DEx4 work 8 and_gate 0 22 LgZ=JzgT8AlYT;3`GZHBC3
+l12
+L10
+V:iHg>M]@UGYnU_FXn^9Fi0
+!s100 g6^bXQDYDzmiU`WOgQh=k2
+R6
+31
+R7
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R11
+R12
+Edut
+Z20 w1691731076
+R2
+R3
+R0
+Z21 8C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Lab1_22B3936/Full_subtractor/DUT.vhdl
+Z22 FC:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Lab1_22B3936/Full_subtractor/DUT.vhdl
+l0
+L8
+VKJo96^2N4BgN1=G7_AW8H0
+!s100 MWL@hAgKOieZ`eD:eC_Da0
+R6
+31
+R7
+!i10b 1
+R17
+Z23 !s90 -reportprogress|300|-93|-work|work|C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Lab1_22B3936/Full_subtractor/DUT.vhdl|
+Z24 !s107 C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Lab1_22B3936/Full_subtractor/DUT.vhdl|
+!i113 1
+R11
+R12
+Adutwrap
+R2
+R3
+DEx4 work 3 dut 0 22 KJo96^2N4BgN1=G7_AW8H0
+l18
+L13
+VULaRf5IWd55ZnFoENSYh32
+!s100 eg^PKSJ:YWWQm5HHaULd@3
+R6
+31
+R7
+!i10b 1
+R17
+R23
+R24
+!i113 1
+R11
+R12
+Efull_subtractor
+Z25 w1691731208
+R14
+R2
+R3
+R0
+Z26 8C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Lab1_22B3936/Full_subtractor/Full_subtractor.vhdl
+Z27 FC:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Lab1_22B3936/Full_subtractor/Full_subtractor.vhdl
+l0
+L6
+V1HgZ8<PK_F9dbWj;7JB=b0
+!s100 1:3nHc5BPIh_J1j8o4^7_1
+R6
+31
+R7
+!i10b 1
+R17
+Z28 !s90 -reportprogress|300|-93|-work|work|C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Lab1_22B3936/Full_subtractor/Full_subtractor.vhdl|
+Z29 !s107 C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Lab1_22B3936/Full_subtractor/Full_subtractor.vhdl|
+!i113 1
+R11
+R12
+Astruct
+R14
+R2
+R3
+DEx4 work 15 full_subtractor 0 22 1HgZ8<PK_F9dbWj;7JB=b0
+l25
+L10
+Vk6NVEFz7nFc^`kS]aINl03
+!s100 f@mamZ[IjbclIRGaUog990
+R6
+31
+R7
+!i10b 1
+R17
+R28
+R29
+!i113 1
+R11
+R12
+Pgates
+R2
+R3
+R1
+R0
+R4
+R5
+l0
+L3
+V@eB5S<QWaBmXNA4jc;3?G2
+!s100 N@iIgLVJlGZzK36CC:zf23
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ehalf_adder
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L120
+VOAZ_4ioR^1B[UAcaA1zf51
+!s100 oLN8>k[AMhPS;D9;:Z@Pz0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 10 half_adder 0 22 OAZ_4ioR^1B[UAcaA1zf51
+l125
+L124
+VflMPld^`b]>0KKXzZhX_91
+!s100 ]f4Ql:1od=>zjRGlb:Lm:0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Einverter
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L41
+V82BXV;Uza[l3mE]`8B<HJ0
+!s100 dFc@GWJO@nF57X0IXFVfh0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 8 inverter 0 22 82BXV;Uza[l3mE]`8B<HJ0
+l46
+L45
+V4]gW5EV5;RT@9C;Pga@SA0
+!s100 [DD^:ihbY=VNQeLiKKX_R1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Enand_2
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L64
+VS^YD8?>b_]W^^dkQa>_3m2
+!s100 S;kgn2U384cOg4>1Kcdn<2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 6 nand_2 0 22 S^YD8?>b_]W^^dkQa>_3m2
+l69
+L68
+VS]`6`a7Bz3gbaB=WX@WdM2
+!s100 EBK=7IM2m_0=gIZGM@F7H1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Enor_2
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L86
+V`A=6DP8fY`aBzcQ@Hgc?S1
+!s100 hCNF9lV5T>8fg2MR^]6f^0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 5 nor_2 0 22 `A=6DP8fY`aBzcQ@Hgc?S1
+l91
+L90
+VIJ=]C?8]dETGzmXBGe8in2
+!s100 iWUJUdMb8DJi]m^=42G9F3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eor_2
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L75
+Ve?I6M>DO0lb4QOFDA10zP2
+!s100 _]<JbSG1DCI^d;kKCeeO:3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 4 or_2 0 22 e?I6M>DO0lb4QOFDA10zP2
+l80
+L79
+V35?1APMW04D0M8BcdBhJ53
+!s100 kX9QLgDQM=e4dN7zDYk6o2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eor_gate
+Z30 w1691724840
+R14
+R2
+R3
+R0
+Z31 8C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Lab1_22B3936/OR/OR_gate.vhdl
+Z32 FC:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Lab1_22B3936/OR/OR_gate.vhdl
+l0
+L6
+V0Z49d7ZFRRGT@H^zMO6j;1
+!s100 LY3RGB8C?b>IlJGfo2AF31
+R6
+31
+R7
+!i10b 1
+R17
+Z33 !s90 -reportprogress|300|-93|-work|work|C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Lab1_22B3936/OR/OR_gate.vhdl|
+Z34 !s107 C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Lab1_22B3936/OR/OR_gate.vhdl|
+!i113 1
+R11
+R12
+Astruct
+R14
+R2
+R3
+DEx4 work 7 or_gate 0 22 0Z49d7ZFRRGT@H^zMO6j;1
+l12
+L10
+V::h4<BaiBCH9zDTBkERVk1
+!s100 ?O_1TdH[;=Uk2JZR70XQ`3
+R6
+31
+R7
+!i10b 1
+R17
+R33
+R34
+!i113 1
+R11
+R12
+Etestbench
+Z35 w1691731030
+R3
+R2
+R0
+Z36 8C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Lab1_22B3936/Full_subtractor/Testbench.vhdl
+Z37 FC:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Lab1_22B3936/Full_subtractor/Testbench.vhdl
+l0
+L7
+V]iKK_Z9L:G9B:i8c]3eFH0
+!s100 bWf8kl8zb90X@P1m>V^K20
+R6
+31
+Z38 !s110 1692893264
+!i10b 1
+Z39 !s108 1692893264.000000
+Z40 !s90 -reportprogress|300|-93|-work|work|C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Lab1_22B3936/Full_subtractor/Testbench.vhdl|
+Z41 !s107 C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Lab1_22B3936/Full_subtractor/Testbench.vhdl|
+!i113 1
+R11
+R12
+Abehave
+R3
+R2
+DEx4 work 9 testbench 0 22 ]iKK_Z9L:G9B:i8c]3eFH0
+l69
+L9
+VmDgc98S8KZ_]N<>a_LTAn0
+!s100 M7S<VZ<dZ[Hl_4J:4F_R22
+R6
+31
+R38
+!i10b 1
+R39
+R40
+R41
+!i113 1
+R11
+R12
+Exnor_2
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L109
+VLHIUEA1`23`S5JTPo4JYA2
+!s100 M7SmBC<JLShUJ=5Tb^BGR1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 6 xnor_2 0 22 LHIUEA1`23`S5JTPo4JYA2
+l114
+L113
+V]AR[iEm:1Y`=`f78Ab8?A2
+!s100 2L8]1Q4cBgn^[7D^6oj0;3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Exor_2
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L98
+VV2P2KWfUW5e1Z=NMXBDJ;0
+!s100 DUe=@W;GH8KgEREMWIRML1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 5 xor_2 0 22 V2P2KWfUW5e1Z=NMXBDJ;0
+l103
+L102
+VQUFBaT6OJ>c<=2In4b:>M1
+!s100 _g>6CYjRMmc7O[`k^N;co3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Exor_gate
+Z42 w1691726032
+R14
+R2
+R3
+R0
+Z43 8C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Lab1_22B3936/XOR/XOR_gate.vhdl
+Z44 FC:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Lab1_22B3936/XOR/XOR_gate.vhdl
+l0
+L6
+VMTJ9KmKc7nKMEXz9659d^3
+!s100 B7kUh8[nFdAmU>nOkBnhR1
+R6
+31
+R7
+!i10b 1
+R17
+Z45 !s90 -reportprogress|300|-93|-work|work|C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Lab1_22B3936/XOR/XOR_gate.vhdl|
+Z46 !s107 C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Lab1_22B3936/XOR/XOR_gate.vhdl|
+!i113 1
+R11
+R12
+Astruct
+R14
+R2
+R3
+DEx4 work 8 xor_gate 0 22 MTJ9KmKc7nKMEXz9659d^3
+l12
+L10
+Vo1?n`_?;9jffDU@6<m4:R3
+!s100 Vz>=4YY?BNT64JIg=lcY43
+R6
+31
+R7
+!i10b 1
+R17
+R45
+R46
+!i113 1
+R11
+R12

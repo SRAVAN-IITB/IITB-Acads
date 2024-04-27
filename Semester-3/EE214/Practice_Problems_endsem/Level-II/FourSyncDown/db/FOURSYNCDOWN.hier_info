@@ -1,0 +1,111 @@
+|FourSyncDown
+Clock => D_FlipFlop:DFF_Gen:0:DFF1.Clock
+Clock => D_FlipFlop:DFF_Gen:1:DFF1.Clock
+Clock => D_FlipFlop:DFF_Gen:2:DFF1.Clock
+Clock => D_FlipFlop:DFF_Gen:3:DFF1.Clock
+Enable => D_FlipFlop:DFF_Gen:0:DFF1.Enable
+Enable => D_FlipFlop:DFF_Gen:1:DFF1.Enable
+Enable => D_FlipFlop:DFF_Gen:2:DFF1.Enable
+Enable => D_FlipFlop:DFF_Gen:3:DFF1.Enable
+Preset => D_FlipFlop:DFF_Gen:0:DFF1.Preset
+Preset => D_FlipFlop:DFF_Gen:1:DFF1.Preset
+Preset => D_FlipFlop:DFF_Gen:2:DFF1.Preset
+Preset => D_FlipFlop:DFF_Gen:3:DFF1.Preset
+Reset => D_FlipFlop:DFF_Gen:0:DFF1.Reset
+Reset => D_FlipFlop:DFF_Gen:1:DFF1.Reset
+Reset => D_FlipFlop:DFF_Gen:2:DFF1.Reset
+Reset => D_FlipFlop:DFF_Gen:3:DFF1.Reset
+Counter[0] << D_FlipFlop:DFF_Gen:0:DFF1.Q
+Counter[1] << Data[1].DB_MAX_OUTPUT_PORT_TYPE
+Counter[2] << Data[2].DB_MAX_OUTPUT_PORT_TYPE
+Counter[3] << Data[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FourSyncDown|D_FlipFlop:\DFF_Gen:0:DFF1
+D => JK_FlipFlop:JKFF_Instance.J
+D => JK_FlipFlop:JKFF_Instance.K
+Clock => JK_FlipFlop:JKFF_Instance.Clock
+Enable => JK_FlipFlop:JKFF_Instance.Enable
+Reset => JK_FlipFlop:JKFF_Instance.Reset
+Preset => JK_FlipFlop:JKFF_Instance.Preset
+Q <= JK_FlipFlop:JKFF_Instance.Q
+NotQ <= JK_FlipFlop:JKFF_Instance.NotQ
+
+
+|FourSyncDown|D_FlipFlop:\DFF_Gen:0:DFF1|JK_FlipFlop:JKFF_Instance
+J => Mux0.IN4
+K => Mux0.IN5
+Clock => NextState.CLK
+Enable => NextState.ENA
+Preset => Q.IN1
+Reset => Q.IN1
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+NotQ <= Q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FourSyncDown|D_FlipFlop:\DFF_Gen:1:DFF1
+D => JK_FlipFlop:JKFF_Instance.J
+D => JK_FlipFlop:JKFF_Instance.K
+Clock => JK_FlipFlop:JKFF_Instance.Clock
+Enable => JK_FlipFlop:JKFF_Instance.Enable
+Reset => JK_FlipFlop:JKFF_Instance.Reset
+Preset => JK_FlipFlop:JKFF_Instance.Preset
+Q <= JK_FlipFlop:JKFF_Instance.Q
+NotQ <= JK_FlipFlop:JKFF_Instance.NotQ
+
+
+|FourSyncDown|D_FlipFlop:\DFF_Gen:1:DFF1|JK_FlipFlop:JKFF_Instance
+J => Mux0.IN4
+K => Mux0.IN5
+Clock => NextState.CLK
+Enable => NextState.ENA
+Preset => Q.IN1
+Reset => Q.IN1
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+NotQ <= Q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FourSyncDown|D_FlipFlop:\DFF_Gen:2:DFF1
+D => JK_FlipFlop:JKFF_Instance.J
+D => JK_FlipFlop:JKFF_Instance.K
+Clock => JK_FlipFlop:JKFF_Instance.Clock
+Enable => JK_FlipFlop:JKFF_Instance.Enable
+Reset => JK_FlipFlop:JKFF_Instance.Reset
+Preset => JK_FlipFlop:JKFF_Instance.Preset
+Q <= JK_FlipFlop:JKFF_Instance.Q
+NotQ <= JK_FlipFlop:JKFF_Instance.NotQ
+
+
+|FourSyncDown|D_FlipFlop:\DFF_Gen:2:DFF1|JK_FlipFlop:JKFF_Instance
+J => Mux0.IN4
+K => Mux0.IN5
+Clock => NextState.CLK
+Enable => NextState.ENA
+Preset => Q.IN1
+Reset => Q.IN1
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+NotQ <= Q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FourSyncDown|D_FlipFlop:\DFF_Gen:3:DFF1
+D => JK_FlipFlop:JKFF_Instance.J
+D => JK_FlipFlop:JKFF_Instance.K
+Clock => JK_FlipFlop:JKFF_Instance.Clock
+Enable => JK_FlipFlop:JKFF_Instance.Enable
+Reset => JK_FlipFlop:JKFF_Instance.Reset
+Preset => JK_FlipFlop:JKFF_Instance.Preset
+Q <= JK_FlipFlop:JKFF_Instance.Q
+NotQ <= JK_FlipFlop:JKFF_Instance.NotQ
+
+
+|FourSyncDown|D_FlipFlop:\DFF_Gen:3:DFF1|JK_FlipFlop:JKFF_Instance
+J => Mux0.IN4
+K => Mux0.IN5
+Clock => NextState.CLK
+Enable => NextState.ENA
+Preset => Q.IN1
+Reset => Q.IN1
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+NotQ <= Q.DB_MAX_OUTPUT_PORT_TYPE
+
+

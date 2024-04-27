@@ -1,0 +1,129 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-224/PROJECT/IITB_CPU/Reg_16BIT/simulation/modelsim
+Edut
+Z1 w1701438854
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-224/PROJECT/IITB_CPU/Reg_16BIT/DUT.vhdl
+Z5 FC:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-224/PROJECT/IITB_CPU/Reg_16BIT/DUT.vhdl
+l0
+L6
+Vg5R;mRPFzRG@g0FUO89_M2
+!s100 1j1kIhkhQHGA31o6`oPBe3
+Z6 OV;C;10.5b;63
+31
+Z7 !s110 1701439176
+!i10b 1
+Z8 !s108 1701439176.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-224/PROJECT/IITB_CPU/Reg_16BIT/DUT.vhdl|
+Z10 !s107 C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-224/PROJECT/IITB_CPU/Reg_16BIT/DUT.vhdl|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Adutwrap
+R2
+R3
+DEx4 work 3 dut 0 22 g5R;mRPFzRG@g0FUO89_M2
+l19
+L11
+VzjzHYCm_;c_08XQJE5V0C2
+!s100 j;jedQNM4BKhHmDnR:Q<_3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ereg_16bit
+Z13 w1701438990
+Z14 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R2
+R3
+R0
+Z15 8C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-224/PROJECT/IITB_CPU/Reg_16BIT/Reg_16BIT.vhdl
+Z16 FC:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-224/PROJECT/IITB_CPU/Reg_16BIT/Reg_16BIT.vhdl
+l0
+L5
+Vm_H9MYVQ194ZT23X__gfQ0
+!s100 1eDShRI>^aBnZhj16WVC@2
+R6
+31
+R7
+!i10b 1
+R8
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-224/PROJECT/IITB_CPU/Reg_16BIT/Reg_16BIT.vhdl|
+Z18 !s107 C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-224/PROJECT/IITB_CPU/Reg_16BIT/Reg_16BIT.vhdl|
+!i113 1
+R11
+R12
+Abhv
+R14
+R2
+R3
+DEx4 work 9 reg_16bit 0 22 m_H9MYVQ194ZT23X__gfQ0
+l14
+L12
+VZ@jf_KNNMZV4]ckRK9VdP0
+!s100 SOPYaGRL4D^5QLR;E1_AN1
+R6
+31
+R7
+!i10b 1
+R8
+R17
+R18
+!i113 1
+R11
+R12
+Etb_reg_16bit
+Z19 w1701439147
+R3
+R2
+R0
+Z20 8C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-224/PROJECT/IITB_CPU/Reg_16BIT/tb_Reg_16BIT.vhdl
+Z21 FC:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-224/PROJECT/IITB_CPU/Reg_16BIT/tb_Reg_16BIT.vhdl
+l0
+L7
+V=Db`ZibmJDUa>H_0nkoVl3
+!s100 ERY5MG02Pj3==cc;?zE`I2
+R6
+31
+R7
+!i10b 1
+R8
+Z22 !s90 -reportprogress|300|-93|-work|work|C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-224/PROJECT/IITB_CPU/Reg_16BIT/tb_Reg_16BIT.vhdl|
+Z23 !s107 C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-224/PROJECT/IITB_CPU/Reg_16BIT/tb_Reg_16BIT.vhdl|
+!i113 1
+R11
+R12
+Abehave
+R3
+R2
+DEx4 work 12 tb_reg_16bit 0 22 =Db`ZibmJDUa>H_0nkoVl3
+l69
+L9
+VREd1nizMQ?=849YI4^lMK1
+!s100 Qb`;hNJ9c0zTJ6O>T`S1S3
+R6
+31
+R7
+!i10b 1
+R8
+R22
+R23
+!i113 1
+R11
+R12

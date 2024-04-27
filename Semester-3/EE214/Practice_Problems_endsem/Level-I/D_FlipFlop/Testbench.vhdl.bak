@@ -1,0 +1,47 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity Testbench is
+end entity;
+
+architecture TB_BHV of Testbench is
+component D_FlipFlop is
+	port (D : in std_logic;
+			Clock : in std_logic;
+			Enable : in std_logic;
+			Reset, Preset : in std_logic;
+			Q, NotQ : out std_logic);
+end component D_FlipFlop;
+
+signal Reset, Preset, D, Enable, Clock : std_logic;
+signal Output : std_logic_vector(1 downto 0);
+
+begin
+	ClockProcess : process
+	begin
+		Clock <= '1';
+		wait for 10 ns;
+		Clock <= '0';
+		wait for 10 ns;
+	end process;
+	
+	DFF_Instance : D_FlipFlop port map (D => D, 
+													Clock => Clock,
+													Reset => Reset, Preset => Preset,
+													Enable => Enable,
+													Q => Output(0), NotQ => Output(1));
+	
+	Preset <= '1', '0' after 10 ns;
+	Reset <= '1', '0' after 20 ns;
+	Enable <= '0', '1' after 30 ns;
+	D <= '0', '1' after 40 ns, '0' after 50 ns, '1' after 60 ns;
+	
+	end_sim : process
+	begin
+		wait for 400ns;
+		ASSERT False
+		REPORT "Sim ended"
+		SEVERITY failure;
+	end process end_sim;
+
+end TB_BHV;

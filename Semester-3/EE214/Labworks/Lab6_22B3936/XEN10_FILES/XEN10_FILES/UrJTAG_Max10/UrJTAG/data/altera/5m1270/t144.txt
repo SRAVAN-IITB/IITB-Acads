@@ -1,0 +1,141 @@
+#
+# $Id: t144 897 2007-12-29 13:02:32Z arniml $
+#
+# JTAG package script for EP4CE10E22
+#
+# This program is free software; you can redistribute it and/or
+# modify it under the terms of the GNU General Public License
+# as published by the Free Software Foundation; either version 2
+# of the License, or (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA
+# 02111-1307, USA.
+#
+# Written by SAURABH AGRAWAL <saurabh.agrawal3@gmail.com>
+#
+# Note:
+#   The signals defined in this file as unused pad are specified as
+#   I/O pins in the main configuration file EP4CE10E22.
+#
+
+salias	IO1	BSC083
+salias	IO2	BSC082
+salias	IO3	BSC080
+salias	IO4	BSC078
+salias	IO5	BSC076
+salias	IO6	BSC075
+salias	IO7	BSC071
+salias	IO8	BSC070
+salias	IO12	BSC064
+salias	IO13	BSC063  
+salias	IO14	BSC062	
+salias	IO15	BSC061	
+salias	IO16	BSC060	
+salias	IO18	BSC059	
+salias	IO20	BSC058	
+salias	IO21    BSC057
+salias	IO22	BSC056
+salias	IO23	BSC055
+salias	IO24	BSC054
+salias	IO27	BSC052
+salias	IO28	BSC049
+salias	IO29	BSC048
+salias	IO30	BSC044
+salias	IO31	BSC041
+salias	IO32	BSC031
+salias	IO37	BSC030
+salias	IO38	BSC029
+salias	IO39	BSC028
+salias	IO40	BSC027
+salias	IO41	BSC026
+salias	IO42	BSC022
+salias	IO43	BSC021
+salias	IO44	BSC020
+salias	IO45	BSC015
+salias	IO48	BSC014
+salias	IO49	BSC013
+salias	IO50	BSC012
+salias	IO51	BSC011
+salias	IO52	BSC010
+salias	IO53	BSC009
+salias	IO55	BSC008
+salias	IO57	BSC007
+salias	IO58	BSC006
+salias	IO59	BSC005
+salias	IO60	BSC004
+salias	IO61	BSC003
+salias	IO62	BSC002
+salias	IO63	BSC001
+salias	IO66	BSC210
+salias	IO67	BSC209
+salias	IO68	BSC206
+salias	IO69	BSC203
+salias	IO70	BSC200
+salias	IO71	BSC197
+salias	IO72	BSC194
+salias	IO73	BSC190
+salias	IO74	BSC189
+salias	IO75	BSC188
+salias	IO76	BSC186
+salias	IO77	BSC183
+salias	IO79	BSC178
+salias	IO80	BSC177
+salias	IO81	BSC174
+salias	IO84	BSC172
+salias	IO85	BSC171
+salias	IO86	BSC170
+salias	IO87	BSC169
+salias	IO88	BSC168
+salias	IO89	BSC167
+salias	IO91	BSC166
+salias	IO93	BSC165
+salias	IO94	BSC164
+salias	IO95	BSC163
+salias	IO96	BSC162
+salias	IO97	BSC161
+salias	IO98	BSC160
+salias	IO101	BSC159
+salias	IO102	BSC155
+salias	IO103	BSC154
+salias	IO104	BSC150
+salias	IO105	BSC149
+salias	IO106	BSC147
+salias	IO107	BSC145
+salias	IO108	BSC143
+salias	IO109	BSC137
+salias	IO110	BSC136
+salias	IO111	BSC135
+salias	IO112	BSC130
+salias	IO113	BSC127
+salias	IO114	BSC124
+salias	IO117	BSC121
+salias	IO118	BSC120
+salias	IO119	BSC119
+salias	IO120	BSC118
+salias	IO121	BSC117
+salias	IO122	BSC116
+salias	IO123	BSC115
+salias	IO124	BSC114
+salias	IO125	BSC113
+salias	IO127	BSC112
+salias	IO129	BSC111
+salias	IO130	BSC110
+salias	IO131	BSC109
+salias	IO132	BSC108
+salias	IO133	BSC107
+salias	IO134	BSC106
+salias	IO137	BSC102
+salias	IO138	BSC101
+salias	IO139	BSC100
+salias	IO140	BSC097
+salias	IO141	BSC096
+salias	IO142	BSC093
+salias	IO143	BSC089
+salias	IO144	BSC086

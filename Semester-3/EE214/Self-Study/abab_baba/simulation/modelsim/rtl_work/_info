@@ -1,0 +1,228 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/PRACTICE/abab_baba/simulation/modelsim
+Edff_reset
+Z1 w1694768692
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/PRACTICE/abab_baba/Flipflops.vhdl
+Z5 FC:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/PRACTICE/abab_baba/Flipflops.vhdl
+l0
+L30
+VUMGf:5A`0a6oMnFF3I8hN0
+!s100 5Zz1STCW1kbN:`XclNgjH0
+Z6 OV;C;10.5b;63
+31
+Z7 !s110 1695720968
+!i10b 1
+Z8 !s108 1695720968.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/PRACTICE/abab_baba/Flipflops.vhdl|
+Z10 !s107 C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/PRACTICE/abab_baba/Flipflops.vhdl|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Abehav
+R2
+R3
+DEx4 work 9 dff_reset 0 22 UMGf:5A`0a6oMnFF3I8hN0
+l33
+L32
+Vz5HdXmKZ4E_`amamha49V3
+!s100 BB6E;n?b^3>MSo<d4egk21
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Edff_set
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L14
+VM;W>XOb93`_Ni?6QDiz@V3
+!s100 2XLF0eWP6APBnmB[HG6Si3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Abehav
+R2
+R3
+DEx4 work 7 dff_set 0 22 M;W>XOb93`_Ni?6QDiz@V3
+l17
+L16
+V2KaVB:kZ>fDY>0Vi:naUg3
+!s100 H6YV7L?Z^Jid0E:5PNNDg3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Edut
+Z13 w1695719809
+R2
+R3
+R0
+Z14 8C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/PRACTICE/abab_baba/DUT.vhdl
+Z15 FC:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/PRACTICE/abab_baba/DUT.vhdl
+l0
+L8
+VTccC23BJ@V`F[=UmG>klB3
+!s100 ;k@Iz2a8b95Uc[`IIi<Li2
+R6
+31
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-93|-work|work|C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/PRACTICE/abab_baba/DUT.vhdl|
+Z17 !s107 C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/PRACTICE/abab_baba/DUT.vhdl|
+!i113 1
+R11
+R12
+Adutwrap
+R2
+R3
+DEx4 work 3 dut 0 22 TccC23BJ@V`F[=UmG>klB3
+l18
+L13
+V]=bbUi0KNK;cI2=i?@2>C3
+!s100 52nQG2BX6`z^TV1TlcHWH1
+R6
+31
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Pflipflops
+R2
+R3
+R1
+R0
+R4
+R5
+l0
+L4
+VT52Jk`7H<e;zh>LN=Udk52
+!s100 NT4SZ]`laRZ5Z@B1zhCQR2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eseqdetector
+Z18 w1695720946
+Z19 DPx4 work 9 flipflops 0 22 T52Jk`7H<e;zh>LN=Udk52
+R2
+R3
+R0
+Z20 8C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/PRACTICE/abab_baba/abab_baba.vhdl
+Z21 FC:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/PRACTICE/abab_baba/abab_baba.vhdl
+l0
+L7
+VZVdimZ97R11fdDCQIbWlE0
+!s100 K^5zj1^kgSg>XW:8W1k>X3
+R6
+31
+R7
+!i10b 1
+R8
+Z22 !s90 -reportprogress|300|-93|-work|work|C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/PRACTICE/abab_baba/abab_baba.vhdl|
+Z23 !s107 C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/PRACTICE/abab_baba/abab_baba.vhdl|
+!i113 1
+R11
+R12
+Astruct
+R19
+R2
+R3
+DEx4 work 11 seqdetector 0 22 ZVdimZ97R11fdDCQIbWlE0
+l15
+L12
+Vd6Z8C5FDY^2gaZV1mR4=B2
+!s100 LCCG49GlW=NV=GiiOJl0n0
+R6
+31
+R7
+!i10b 1
+R8
+R22
+R23
+!i113 1
+R11
+R12
+Etestbench
+Z24 w1695720199
+R3
+R2
+R0
+Z25 8C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/PRACTICE/abab_baba/Testbench.vhdl
+Z26 FC:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/PRACTICE/abab_baba/Testbench.vhdl
+l0
+L7
+V]iKK_Z9L:G9B:i8c]3eFH0
+!s100 bWf8kl8zb90X@P1m>V^K20
+R6
+31
+Z27 !s110 1695720969
+!i10b 1
+R8
+Z28 !s90 -reportprogress|300|-93|-work|work|C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/PRACTICE/abab_baba/Testbench.vhdl|
+Z29 !s107 C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/PRACTICE/abab_baba/Testbench.vhdl|
+!i113 1
+R11
+R12
+Abehave
+R3
+R2
+DEx4 work 9 testbench 0 22 ]iKK_Z9L:G9B:i8c]3eFH0
+l69
+L9
+V35T90MSzo=jMe^HDQ:LV;1
+!s100 @]HoRND;NARCKg?3fU7Io1
+R6
+31
+R27
+!i10b 1
+R8
+R28
+R29
+!i113 1
+R11
+R12

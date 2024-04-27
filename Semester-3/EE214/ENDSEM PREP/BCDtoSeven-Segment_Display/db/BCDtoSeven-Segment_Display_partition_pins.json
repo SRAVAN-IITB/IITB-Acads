@@ -1,0 +1,53 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Seven_Segment[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Seven_Segment[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Seven_Segment[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Seven_Segment[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Seven_Segment[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Seven_Segment[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Seven_Segment[6]",
+					"strict" : false
+				},
+				{
+					"name" : "BCDin[0]",
+					"strict" : false
+				},
+				{
+					"name" : "BCDin[1]",
+					"strict" : false
+				},
+				{
+					"name" : "BCDin[2]",
+					"strict" : false
+				},
+				{
+					"name" : "BCDin[3]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

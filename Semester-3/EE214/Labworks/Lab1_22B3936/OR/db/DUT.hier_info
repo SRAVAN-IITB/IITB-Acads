@@ -1,0 +1,24 @@
+|DUT
+input_vector[0] => OR_gate:add_instance.B
+input_vector[1] => OR_gate:add_instance.A
+output_vector[0] <= OR_gate:add_instance.Y
+
+
+|DUT|OR_gate:add_instance
+A => NOR_2:NOR1.A
+B => NOR_2:NOR1.B
+Y <= NOR_2:NOR2.Y
+
+
+|DUT|OR_gate:add_instance|NOR_2:NOR1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|OR_gate:add_instance|NOR_2:NOR2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+

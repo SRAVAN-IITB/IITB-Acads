@@ -1,0 +1,6 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity Asynch_Up_Ctr_4bit is
+	port(clock, J, K, Reset, Preset, Enable : in std_logic; Q, QBar : out std_logic);
+end Asynch_Up_Ctr_4bit;

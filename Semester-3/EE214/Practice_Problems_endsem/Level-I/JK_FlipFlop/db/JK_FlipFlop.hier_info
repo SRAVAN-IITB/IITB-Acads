@@ -1,0 +1,15 @@
+|JK_FlipFlop
+J => temp.OUTPUTSELECT
+K => temp.OUTPUTSELECT
+K => temp.OUTPUTSELECT
+Clock => temp.CLK
+Enable => temp.IN0
+Enable => temp.IN1
+Enable => temp.ENA
+Preset => temp.IN1
+Preset => temp.IN0
+Reset => temp.IN1
+Q <= temp.DB_MAX_OUTPUT_PORT_TYPE
+QBar <= temp.DB_MAX_OUTPUT_PORT_TYPE
+
+

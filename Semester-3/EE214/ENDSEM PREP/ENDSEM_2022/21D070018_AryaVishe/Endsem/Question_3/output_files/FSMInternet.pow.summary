@@ -1,0 +1,12 @@
+Power Analyzer Status : Successful - Sat Oct 29 18:33:32 2022
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : FSMInternet
+Top-level Entity Name : FSMInternet
+Family : MAX 10
+Device : 10M08SAE144C8G
+Power Models : Final
+Total Thermal Power Dissipation : 116.31 mW
+Core Dynamic Thermal Power Dissipation : 0.00 mW
+Core Static Thermal Power Dissipation : 110.61 mW
+I/O Thermal Power Dissipation : 5.70 mW
+Power Estimation Confidence : Low: user provided insufficient toggle rate data

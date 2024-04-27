@@ -1,0 +1,36 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity FourSyncDown is
+	port (Clock, Enable, Preset, Reset : in std_logic;
+			Counter : out std_logic_vector(3 downto 0));
+end entity FourSyncDown;
+
+architecture Struct of FourSyncDown is
+	component D_FlipFlop is
+	port (D : in std_logic;
+			Clock : in std_logic;
+			Enable : in std_logic;
+			Reset, Preset : in std_logic;
+			Q, NotQ : out std_logic);
+	end component D_FlipFlop;
+	
+	signal Data : std_logic_vector(3 downto 0);
+	signal Q : std_logic_vector(3 downto 0) := "1111";
+	signal NotQ : std_logic_vector(3 downto 0) := "0000";
+	
+	begin
+	Data(3) <= (Q(3) and Q(1)) or (Q(3) and Q(0) and not Q(1)) or not(Q(3) or Q(2) or Q(1) or Q(0)) or (Q(3) and Q(2) and not Q(1));
+	Data(2) <= (Q(1) and Q(2)) or (not Q(1) and (Q(0) xnor Q(2)));
+	Data(1) <= Q(1) xnor Q(0);
+	Data(0) <= not Q(0);
+	
+	DFF_Gen : for i in 0 to 3 generate
+		DFF1 : D_FlipFlop port map (D => Data(i),
+											 Clock => Clock, Enable => Enable, 
+											 Preset => Preset, Reset => Reset, 
+											 Q => Q(i), NotQ => NotQ(i));
+	end generate;
+	
+	Counter <= Data;
+end architecture Struct;

@@ -1,0 +1,7 @@
+|D_Latch
+clock => buff.CLK
+D => buff.DATAIN
+Q <= buff.DB_MAX_OUTPUT_PORT_TYPE
+QBAR <= buff.DB_MAX_OUTPUT_PORT_TYPE
+
+

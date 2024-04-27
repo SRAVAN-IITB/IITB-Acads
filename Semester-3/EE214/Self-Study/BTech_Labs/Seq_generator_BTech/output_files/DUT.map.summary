@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Mon Sep 25 22:32:55 2023
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : DUT
+Top-level Entity Name : DUT
+Family : MAX 10
+Total logic elements : 3
+    Total combinational functions : 3
+    Dedicated logic registers : 3
+Total registers : 3
+Total pins : 3
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

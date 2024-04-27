@@ -1,0 +1,24 @@
+|Asynch_Up_Ctr_4bit
+Clock => JK_FF:JKFF1.clock
+Reset => JK_FF:JKFF1.Reset
+Counter[0] << JK_FF:JKFF1.QBar
+Counter[1] << JK_FF:JKFF1.Q
+Counter[2] << JK_FF:JKFF1.Q
+Counter[3] << JK_FF:JKFF1.Q
+
+
+|Asynch_Up_Ctr_4bit|JK_FF:JKFF1
+clock => buff.CLK
+J => Data_change.IN0
+J => Data_change.IN0
+J => Data_change.IN0
+K => Data_change.IN1
+K => Data_change.IN1
+K => Data_change.IN1
+Reset => outp.IN1
+Preset => outp.IN1
+Enable => buff.ENA
+Q <= outp.DB_MAX_OUTPUT_PORT_TYPE
+QBar <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+

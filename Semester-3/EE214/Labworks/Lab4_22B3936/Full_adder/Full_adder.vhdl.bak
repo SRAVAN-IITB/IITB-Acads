@@ -1,0 +1,24 @@
+library ieee;
+use ieee.std_logic_1164.all;
+library work;
+use work.Gates.all;
+
+entity Full_adder is
+port (A, B, Cin: in std_logic; Sum, Car: out std_logic);
+end entity Full_adder;
+
+architecture Struct of Full_adder is
+signal AxorB, AandB, BandCin, AandCin, orr : std_logic;
+
+begin
+  --component instances
+  XOR1 : XOR_gate port map (A => A, B => B, Y => AxorB);
+  XOR2 : XOR_gate port map (A => AxorB, B => Cin, Y => Sum);
+
+  AND1 : AND_gate port map (A => A, B => B, Y => AandB);
+  AND2 : AND_gate port map (A=>Cin, B=>B, Y=>BandCin);
+  AND3 : AND_gate port map (A=>Cin, B=>A, Y=>AandCin);
+  OR1 : OR_gate port map (A=>AandB, B=>BandCin, Y=>orr);
+  OR2 : OR_gate port map (A=>orr, B=>AandCin, Y=>Car);
+
+  end Struct;

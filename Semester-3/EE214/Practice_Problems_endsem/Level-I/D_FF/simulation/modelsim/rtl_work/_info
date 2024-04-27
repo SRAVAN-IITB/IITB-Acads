@@ -1,0 +1,127 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Practice_Problems/Level-I/D_FF/simulation/modelsim
+Ed_ff
+Z1 w1699074712
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Practice_Problems/Level-I/D_FF/D_FF.vhdl
+Z5 FC:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Practice_Problems/Level-I/D_FF/D_FF.vhdl
+l0
+L4
+Vg5X<Gl`jNTfoL^Vd9`;`A0
+!s100 BBl?7AK<_jA`^[Gi09@G^1
+Z6 OV;C;10.5b;63
+31
+Z7 !s110 1699107561
+!i10b 1
+Z8 !s108 1699107561.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Practice_Problems/Level-I/D_FF/D_FF.vhdl|
+Z10 !s107 C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Practice_Problems/Level-I/D_FF/D_FF.vhdl|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Astruct
+R2
+R3
+DEx4 work 4 d_ff 0 22 g5X<Gl`jNTfoL^Vd9`;`A0
+l12
+L8
+V6UmVPe[MXnE4`H1lSXe[H3
+!s100 z_OJiQWE;I;L4X3[PmNSa3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ejk_ff
+Z13 w1699006070
+R2
+R3
+R0
+Z14 8C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Practice_Problems/Level-I/D_FF/JK_FF.vhdl
+Z15 FC:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Practice_Problems/Level-I/D_FF/JK_FF.vhdl
+l0
+L4
+Vn[D[D_MZoZSjh5j>n6P?Z1
+!s100 HA^DBNIhK`IE8CT[0_hzX3
+R6
+31
+Z16 !s110 1699107560
+!i10b 1
+Z17 !s108 1699107560.000000
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Practice_Problems/Level-I/D_FF/JK_FF.vhdl|
+Z19 !s107 C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Practice_Problems/Level-I/D_FF/JK_FF.vhdl|
+!i113 1
+R11
+R12
+Abhv
+R2
+R3
+DEx4 work 5 jk_ff 0 22 n[D[D_MZoZSjh5j>n6P?Z1
+l10
+L8
+V`?6Cd26;YH=kXJbIF9ZM@3
+!s100 zK?=fo88X2_OYZ:lJKnZD1
+R6
+31
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R11
+R12
+Etestbench
+Z20 w1699008813
+R2
+R3
+R0
+Z21 8C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Practice_Problems/Level-I/D_FF/Testbench.vhdl
+Z22 FC:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Practice_Problems/Level-I/D_FF/Testbench.vhdl
+l0
+L4
+VgaWcL1^`9EzBhN8I=ULUi2
+!s100 2@kbmT:Y0UOXN`C[8oeET0
+R6
+31
+R7
+!i10b 1
+R8
+Z23 !s90 -reportprogress|300|-93|-work|work|C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Practice_Problems/Level-I/D_FF/Testbench.vhdl|
+Z24 !s107 C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Practice_Problems/Level-I/D_FF/Testbench.vhdl|
+!i113 1
+R11
+R12
+Atb_bhv
+R2
+R3
+DEx4 work 9 testbench 0 22 gaWcL1^`9EzBhN8I=ULUi2
+l15
+L7
+VQkFBPX??ZTTY@HR6_JmhT1
+!s100 D@j:J<nV:5WK3HY?TM1D83
+R6
+31
+R7
+!i10b 1
+R8
+R23
+R24
+!i113 1
+R11
+R12

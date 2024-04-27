@@ -1,0 +1,542 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Practice_Problems/Level-III/STUDENTS_FSM_AmanR/STUDENTS_FSM/simulation/modelsim
+Eand_2
+Z1 w1624765260
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Practice_Problems/Level-III/STUDENTS_FSM_AmanR/STUDENTS_FSM/Gates.vhdl
+Z5 FC:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Practice_Problems/Level-III/STUDENTS_FSM_AmanR/STUDENTS_FSM/Gates.vhdl
+l0
+L53
+VU7DI`Tzl@EfAQ?4z53E2F2
+!s100 1`nWBgISBZCVoBKm`L3TM3
+Z6 OV;C;10.5b;63
+31
+Z7 !s110 1699385561
+!i10b 1
+Z8 !s108 1699385561.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Practice_Problems/Level-III/STUDENTS_FSM_AmanR/STUDENTS_FSM/Gates.vhdl|
+Z10 !s107 C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Practice_Problems/Level-III/STUDENTS_FSM_AmanR/STUDENTS_FSM/Gates.vhdl|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Aequations
+R2
+R3
+DEx4 work 5 and_2 0 22 U7DI`Tzl@EfAQ?4z53E2F2
+l58
+L57
+Vlhgfe[LY0eM?e_R:VHaZ:1
+!s100 6Ea@T?V>e39O6cgPlk<iS0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eand_9
+Z13 w1699263460
+R2
+R3
+R0
+Z14 8C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Practice_Problems/Level-III/STUDENTS_FSM_AmanR/STUDENTS_FSM/AND_9.vhd
+Z15 FC:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Practice_Problems/Level-III/STUDENTS_FSM_AmanR/STUDENTS_FSM/AND_9.vhd
+l0
+L5
+VJOz1gI2dWBZJalJN`3CQ?3
+!s100 denW39zBO>HRW70z?D=hT3
+R6
+31
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-93|-work|work|C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Practice_Problems/Level-III/STUDENTS_FSM_AmanR/STUDENTS_FSM/AND_9.vhd|
+Z17 !s107 C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Practice_Problems/Level-III/STUDENTS_FSM_AmanR/STUDENTS_FSM/AND_9.vhd|
+!i113 1
+R11
+R12
+Abhv
+R2
+R3
+DEx4 work 5 and_9 0 22 JOz1gI2dWBZJalJN`3CQ?3
+l11
+L9
+V^PJ7><dWSz]WT385Ki2P00
+!s100 jh<G3cZh[fQFObl_:ibOf2
+R6
+31
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Edff_jk
+Z18 w1698512572
+Z19 DPx4 work 5 gates 0 22 @eB5S<QWaBmXNA4jc;3?G2
+R2
+R3
+R0
+Z20 8C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Practice_Problems/Level-III/STUDENTS_FSM_AmanR/STUDENTS_FSM/DFF_JK.vhd
+Z21 FC:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Practice_Problems/Level-III/STUDENTS_FSM_AmanR/STUDENTS_FSM/DFF_JK.vhd
+l0
+L7
+VEl4mOBDIz9LzVjY6^:Ej11
+!s100 `CWIm>H=7[eK]I9HoOb=I0
+R6
+31
+R7
+!i10b 1
+R8
+Z22 !s90 -reportprogress|300|-93|-work|work|C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Practice_Problems/Level-III/STUDENTS_FSM_AmanR/STUDENTS_FSM/DFF_JK.vhd|
+Z23 !s107 C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Practice_Problems/Level-III/STUDENTS_FSM_AmanR/STUDENTS_FSM/DFF_JK.vhd|
+!i113 1
+R11
+R12
+Abhv
+R19
+R2
+R3
+DEx4 work 6 dff_jk 0 22 El4mOBDIz9LzVjY6^:Ej11
+l16
+L11
+VLU?UBY^YV721C[E7UMj^N3
+!s100 ^EF=D?gDika`JAYg[8@<U2
+R6
+31
+R7
+!i10b 1
+R8
+R22
+R23
+!i113 1
+R11
+R12
+Pgates
+R2
+R3
+R1
+R0
+R4
+R5
+l0
+L3
+V@eB5S<QWaBmXNA4jc;3?G2
+!s100 N@iIgLVJlGZzK36CC:zf23
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ehalf_adder
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L120
+VOAZ_4ioR^1B[UAcaA1zf51
+!s100 oLN8>k[AMhPS;D9;:Z@Pz0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 10 half_adder 0 22 OAZ_4ioR^1B[UAcaA1zf51
+l125
+L124
+VflMPld^`b]>0KKXzZhX_91
+!s100 ]f4Ql:1od=>zjRGlb:Lm:0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Einverter
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L41
+V82BXV;Uza[l3mE]`8B<HJ0
+!s100 dFc@GWJO@nF57X0IXFVfh0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 8 inverter 0 22 82BXV;Uza[l3mE]`8B<HJ0
+l46
+L45
+V4]gW5EV5;RT@9C;Pga@SA0
+!s100 [DD^:ihbY=VNQeLiKKX_R1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ej_kff
+Z24 w1698497506
+R2
+R3
+R0
+Z25 8C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Practice_Problems/Level-III/STUDENTS_FSM_AmanR/STUDENTS_FSM/J_KFF.vhd
+Z26 FC:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Practice_Problems/Level-III/STUDENTS_FSM_AmanR/STUDENTS_FSM/J_KFF.vhd
+l0
+L4
+V[a_[_I291imY^[X9Pc9jQ3
+!s100 <[ifm5R?GJZNFj:5549Bb3
+R6
+31
+R7
+!i10b 1
+R8
+Z27 !s90 -reportprogress|300|-93|-work|work|C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Practice_Problems/Level-III/STUDENTS_FSM_AmanR/STUDENTS_FSM/J_KFF.vhd|
+Z28 !s107 C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Practice_Problems/Level-III/STUDENTS_FSM_AmanR/STUDENTS_FSM/J_KFF.vhd|
+!i113 1
+R11
+R12
+Abhv
+R2
+R3
+DEx4 work 5 j_kff 0 22 [a_[_I291imY^[X9Pc9jQ3
+l11
+L8
+V^5fLQ0n^e<]mj0B1G`0jB2
+!s100 CIZC;Dd@4bC5F6^>2`HeF3
+R6
+31
+R7
+!i10b 1
+R8
+R27
+R28
+!i113 1
+R11
+R12
+Enand_2
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L64
+VS^YD8?>b_]W^^dkQa>_3m2
+!s100 S;kgn2U384cOg4>1Kcdn<2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 6 nand_2 0 22 S^YD8?>b_]W^^dkQa>_3m2
+l69
+L68
+VS]`6`a7Bz3gbaB=WX@WdM2
+!s100 EBK=7IM2m_0=gIZGM@F7H1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Enor_2
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L86
+V`A=6DP8fY`aBzcQ@Hgc?S1
+!s100 hCNF9lV5T>8fg2MR^]6f^0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 5 nor_2 0 22 `A=6DP8fY`aBzcQ@Hgc?S1
+l91
+L90
+VIJ=]C?8]dETGzmXBGe8in2
+!s100 iWUJUdMb8DJi]m^=42G9F3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eor_2
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L75
+Ve?I6M>DO0lb4QOFDA10zP2
+!s100 _]<JbSG1DCI^d;kKCeeO:3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 4 or_2 0 22 e?I6M>DO0lb4QOFDA10zP2
+l80
+L79
+V35?1APMW04D0M8BcdBhJ53
+!s100 kX9QLgDQM=e4dN7zDYk6o2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Estudents_fsm
+Z29 w1699385377
+R19
+R2
+R3
+R0
+Z30 8C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Practice_Problems/Level-III/STUDENTS_FSM_AmanR/STUDENTS_FSM/STUDENTS_FSM.vhd
+Z31 FC:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Practice_Problems/Level-III/STUDENTS_FSM_AmanR/STUDENTS_FSM/STUDENTS_FSM.vhd
+l0
+L7
+V50F0KD7C0Y5_mM_@9j<^U1
+!s100 Do>6hj<4Poon0;j`SS`WX2
+R6
+31
+R7
+!i10b 1
+R8
+Z32 !s90 -reportprogress|300|-93|-work|work|C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Practice_Problems/Level-III/STUDENTS_FSM_AmanR/STUDENTS_FSM/STUDENTS_FSM.vhd|
+Z33 !s107 C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Practice_Problems/Level-III/STUDENTS_FSM_AmanR/STUDENTS_FSM/STUDENTS_FSM.vhd|
+!i113 1
+R11
+R12
+Astruct
+R19
+R2
+R3
+DEx4 work 12 students_fsm 0 22 50F0KD7C0Y5_mM_@9j<^U1
+l25
+L11
+VciP@282m6MA0<CaX6gGN02
+!s100 n0;0oe;HJNhQDBQHRa9dV0
+R6
+31
+R7
+!i10b 1
+R8
+R32
+R33
+!i113 1
+R11
+R12
+Etestbench
+Z34 w1699290222
+R2
+R3
+R0
+Z35 8C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Practice_Problems/Level-III/STUDENTS_FSM_AmanR/STUDENTS_FSM/Testbench.vhdl
+Z36 FC:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Practice_Problems/Level-III/STUDENTS_FSM_AmanR/STUDENTS_FSM/Testbench.vhdl
+l0
+L4
+VL7N=bE4@XE?;`aNNSzSTL0
+!s100 =K:1DH_7Ch>TaEjF^>Un_3
+R6
+31
+R7
+!i10b 1
+R8
+Z37 !s90 -reportprogress|300|-93|-work|work|C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Practice_Problems/Level-III/STUDENTS_FSM_AmanR/STUDENTS_FSM/Testbench.vhdl|
+Z38 !s107 C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Practice_Problems/Level-III/STUDENTS_FSM_AmanR/STUDENTS_FSM/Testbench.vhdl|
+!i113 1
+R11
+R12
+Atb_bhv
+R2
+R3
+DEx4 work 9 testbench 0 22 L7N=bE4@XE?;`aNNSzSTL0
+l16
+L7
+Vnhln9Y0G>V]@e6=jndTzz1
+!s100 _gYP3Z6Ho30BhDPiH2Z?C0
+R6
+31
+R7
+!i10b 1
+R8
+R37
+R38
+!i113 1
+R11
+R12
+Exnor_2
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L109
+VLHIUEA1`23`S5JTPo4JYA2
+!s100 M7SmBC<JLShUJ=5Tb^BGR1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 6 xnor_2 0 22 LHIUEA1`23`S5JTPo4JYA2
+l114
+L113
+V]AR[iEm:1Y`=`f78Ab8?A2
+!s100 2L8]1Q4cBgn^[7D^6oj0;3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Exor_2
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L98
+VV2P2KWfUW5e1Z=NMXBDJ;0
+!s100 DUe=@W;GH8KgEREMWIRML1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 5 xor_2 0 22 V2P2KWfUW5e1Z=NMXBDJ;0
+l103
+L102
+VQUFBaT6OJ>c<=2In4b:>M1
+!s100 _g>6CYjRMmc7O[`k^N;co3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12

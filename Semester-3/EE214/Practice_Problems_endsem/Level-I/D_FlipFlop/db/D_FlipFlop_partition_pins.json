@@ -1,0 +1,37 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Q",
+					"strict" : false
+				},
+				{
+					"name" : "QBar",
+					"strict" : false
+				},
+				{
+					"name" : "Enable",
+					"strict" : false
+				},
+				{
+					"name" : "D",
+					"strict" : false
+				},
+				{
+					"name" : "Clock",
+					"strict" : false
+				},
+				{
+					"name" : "Preset",
+					"strict" : false
+				},
+				{
+					"name" : "Reset",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

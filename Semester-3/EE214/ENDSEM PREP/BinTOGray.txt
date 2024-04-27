@@ -1,0 +1,17 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity BinarytoGray is
+port( b: in std_logic_vector(3 downto 0); --binary
+g: out std_logic_vector(3 downto 0)); --gray
+end BinarytoGray;
+
+architecture behavioral of BinarytoGray is
+begin
+b(3)<= g(3);
+b(2)<= g(3) xor g(2);
+b(1)<= g(2) xor g(1);
+b(0)<= g(1) xor g(0);
+end behavioral;

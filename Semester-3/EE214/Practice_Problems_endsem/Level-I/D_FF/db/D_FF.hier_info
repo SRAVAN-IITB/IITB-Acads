@@ -1,0 +1,26 @@
+|D_FF
+clock => JK_FF:JK1.clock
+D => JK_FF:JK1.J
+DBar => JK_FF:JK1.K
+Reset => JK_FF:JK1.Reset
+Preset => JK_FF:JK1.Preset
+Enable => JK_FF:JK1.Enable
+Q <= JK_FF:JK1.Q
+QBar <= JK_FF:JK1.QBar
+
+
+|D_FF|JK_FF:JK1
+clock => buff.CLK
+J => Data_change.IN0
+J => Data_change.IN0
+J => Data_change.IN0
+K => Data_change.IN1
+K => Data_change.IN1
+K => Data_change.IN1
+Reset => outp.IN1
+Preset => outp.IN1
+Enable => buff.ENA
+Q <= outp.DB_MAX_OUTPUT_PORT_TYPE
+QBar <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+

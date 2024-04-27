@@ -1,0 +1,93 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Counter[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Counter[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Counter[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Counter[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Counter[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Counter[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Counter[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Counter[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Counter[8]",
+					"strict" : false
+				},
+				{
+					"name" : "Counter[9]",
+					"strict" : false
+				},
+				{
+					"name" : "Counter[10]",
+					"strict" : false
+				},
+				{
+					"name" : "Counter[11]",
+					"strict" : false
+				},
+				{
+					"name" : "Counter[12]",
+					"strict" : false
+				},
+				{
+					"name" : "Counter[13]",
+					"strict" : false
+				},
+				{
+					"name" : "Counter[14]",
+					"strict" : false
+				},
+				{
+					"name" : "Counter[15]",
+					"strict" : false
+				},
+				{
+					"name" : "M",
+					"strict" : false
+				},
+				{
+					"name" : "Clock",
+					"strict" : false
+				},
+				{
+					"name" : "Enable",
+					"strict" : false
+				},
+				{
+					"name" : "Preset",
+					"strict" : false
+				},
+				{
+					"name" : "Reset",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

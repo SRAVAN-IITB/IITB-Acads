@@ -1,0 +1,127 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/PRACTICE/alu_beh/simulation/modelsim
+Ealu_beh
+Z1 w1694112814
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/PRACTICE/alu_beh/alu_beh.vhdl
+Z5 FC:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/PRACTICE/alu_beh/alu_beh.vhdl
+l0
+L3
+V@7G5CVkMbjiW``f>2GKb@2
+!s100 47SAVN`F?DDO?0Jf[Tco]1
+Z6 OV;C;10.5b;63
+31
+Z7 !s110 1694112958
+!i10b 1
+Z8 !s108 1694112957.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/PRACTICE/alu_beh/alu_beh.vhdl|
+Z10 !s107 C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/PRACTICE/alu_beh/alu_beh.vhdl|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Aa1
+R2
+R3
+DEx4 work 7 alu_beh 0 22 @7G5CVkMbjiW``f>2GKb@2
+l70
+L12
+VP4GJ[N@SVFk4JQB@Fng2M1
+!s100 O?B^Ik<Po41n=]1hi5PV^2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Edut
+Z13 w1694111849
+R2
+R3
+R0
+Z14 8C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/PRACTICE/alu_beh/DUT.vhdl
+Z15 FC:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/PRACTICE/alu_beh/DUT.vhdl
+l0
+L8
+VVb0aahT?^M8>`4g6jfXJZ1
+!s100 DF=A7V:bSHXmB@nZ[zjVA0
+R6
+31
+Z16 !s110 1694112957
+!i10b 1
+R8
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/PRACTICE/alu_beh/DUT.vhdl|
+Z18 !s107 C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/PRACTICE/alu_beh/DUT.vhdl|
+!i113 1
+R11
+R12
+Adutwrap
+R2
+R3
+DEx4 work 3 dut 0 22 Vb0aahT?^M8>`4g6jfXJZ1
+l21
+L13
+Vl7l=ljXeaAcOQg08Hodd;3
+!s100 EWm6B0^1`=B9>L>NG16731
+R6
+31
+R16
+!i10b 1
+R8
+R17
+R18
+!i113 1
+R11
+R12
+Etestbench
+Z19 w1694109498
+R3
+R2
+R0
+Z20 8C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/PRACTICE/alu_beh/Testbench.vhdl
+Z21 FC:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/PRACTICE/alu_beh/Testbench.vhdl
+l0
+L7
+V]iKK_Z9L:G9B:i8c]3eFH0
+!s100 bWf8kl8zb90X@P1m>V^K20
+R6
+31
+R7
+!i10b 1
+Z22 !s108 1694112958.000000
+Z23 !s90 -reportprogress|300|-93|-work|work|C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/PRACTICE/alu_beh/Testbench.vhdl|
+Z24 !s107 C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/PRACTICE/alu_beh/Testbench.vhdl|
+!i113 1
+R11
+R12
+Abehave
+R3
+R2
+DEx4 work 9 testbench 0 22 ]iKK_Z9L:G9B:i8c]3eFH0
+l69
+L9
+VB?ln9WA:09P=<a20E;=5B3
+!s100 na67H3I6:f8^4lno><LSC2
+R6
+31
+R7
+!i10b 1
+R22
+R23
+R24
+!i113 1
+R11
+R12

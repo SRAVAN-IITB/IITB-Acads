@@ -1,0 +1,123 @@
+#
+# $Id: t144 897 2007-12-29 13:02:32Z arniml $
+#
+# JTAG package script for EP4CE10E22
+#
+# This program is free software; you can redistribute it and/or
+# modify it under the terms of the GNU General Public License
+# as published by the Free Software Foundation; either version 2
+# of the License, or (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA
+# 02111-1307, USA.
+#
+# Written by SAURABH AGRAWAL <saurabh.agrawal3@gmail.com>
+#
+# Note:
+#   The signals defined in this file as unused pad are specified as
+#   I/O pins in the main configuration file EP4CE10E22.
+#
+
+salias	IO1	BSC200	# Note: this pin is specified as I/O. If AS mode is specified by MSEL it is output only (ASDO)
+salias	IO2	BSC199	# Note: this pin is specified as I/O. If AS mode is specified by MSEL it is output only (nCSO)
+salias	IO3	BSC198
+salias	IO6	BSC195
+salias	IO7	BSC194
+salias	IO8	BSC193
+salias	IO10	BSC187
+salias	IO11	BSC186
+salias	IO13	BSC184
+salias	DATA0	BSC183	# Family-specific input pin 14
+salias	DCLK	BSC182	# Family-specific input pin 15
+salias	CLK0	BSC181	# Family-specific input pin 17
+salias	CLK1	BSC180	# Family-specific input pin 18
+salias	CLK2	BSC179	# Family-specific input pin 21
+salias	CLK3	BSC178	# Family-specific input pin 22
+salias	IO28	BSC173
+salias	IO30	BSC170
+salias	IO31	BSC168
+salias	IO32	BSC165
+salias	IO33	BSC164
+salias	IO34	BSC163
+salias	IO38	BSC159
+salias	IO39	BSC158
+salias	IO42	BSC152
+salias	IO43	BSC151
+salias	IO44	BSC150
+salias	IO46	BSC146
+salias	IO49	BSC136
+salias	IO50	BSC135
+salias	IO51	BSC134
+salias	IO52	BSC132
+salias	IO53	BSC131
+salias	IO54	BSC130
+salias	IO55	BSC129
+salias	IO58	BSC124
+salias	IO59	BSC121
+salias	IO60	BSC120
+salias	IO64	BSC115
+salias	IO65	BSC114
+salias	IO66	BSC111
+salias	IO67	BSC110
+salias	IO68	BSC108
+salias	IO69	BSC107
+salias	IO70	BSC106
+salias	IO71	BSC105
+salias	IO72	BSC104
+salias	IO73	BSC102
+salias	IO74	BSC101
+salias	MSEL1	BSC073		# Family-specific input pin 84
+salias	MSEL0	BSC074		# Family-specific input pin 85
+salias	IO75	BSC100
+salias	IO76	BSC098
+salias	CLK7	BSC079		# Family-specific input pin 88
+salias	CLK6	BSC078		# Family-specific input pin 89
+salias	CLK5	BSC077      	# Family-specific input pin 90
+salias	CLK4	BSC076	      # Family-specific input pin 91
+salias	IO77	BSC097
+salias	IO80	BSC091
+salias	IO83	BSC087
+salias	IO84	BSC086
+salias	IO85	BSC085
+salias	IO86	BSC084
+salias	IO87	BSC083
+salias	IO98	BSC068
+salias	IO99	BSC067
+salias	IO100	BSC066
+salias	IO101	BSC065
+salias	IO103	BSC064
+salias	IO104	BSC063
+salias	IO105	BSC062
+salias	IO106	BSC058
+salias	IO110	BSC052
+salias	IO111	BSC050
+salias	IO112	BSC049
+salias	IO113	BSC048
+salias	IO114	BSC047
+salias	IO115	BSC046
+salias	IO119	BSC041
+salias	IO120	BSC040
+salias	IO121	BSC039
+salias	IO124	BSC031
+salias	IO125	BSC030
+salias	IO126	BSC029
+salias	IO127	BSC028
+salias	IO128	BSC027
+salias	IO129	BSC026
+salias	IO132	BSC023
+salias	IO133	BSC022
+salias	IO135	BSC019
+salias	IO136	BSC017
+salias	IO137	BSC014
+salias	IO138	BSC013
+salias	IO141	BSC009
+salias	IO142	BSC003
+salias	IO143	BSC002
+salias	IO144	BSC001

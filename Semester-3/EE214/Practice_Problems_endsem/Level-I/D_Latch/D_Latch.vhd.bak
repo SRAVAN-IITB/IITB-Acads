@@ -1,0 +1,18 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity D_LATCH is
+	port (Input : in std_logic;
+			Enable : in std_logic;
+			Q : out std_logic);
+end entity D_LATCH;
+
+architecture Bhv of D_LATCH is
+begin
+	process(Enable, Input)
+	begin
+		if (Enable = '1') then
+			Q <= Input;
+		end if;
+	end process;
+end Bhv;

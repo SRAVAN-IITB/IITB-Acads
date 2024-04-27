@@ -1,0 +1,219 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity Servers is
+	port(clock:in std_logic;
+        input: in std_logic_vector(3 downto 0);
+		outp: out std_logic_vector(7 downto 0));
+end Servers;
+
+architecture bhv of Servers is
+---------------Define state type here-----------------------------
+	type state is (idle, Ad, Pr, Re, St, PAW, RAW, RPW, SRW, SPW, SAW); -- Fill other states here
+---------------Define signals of state type-----------------------
+	signal s: state:=idle;
+    signal n: integer := 1;
+	begin
+		clock_proc:process(clock)
+		begin
+        if(clock'event and clock = '1') then
+                case s is
+                    when idle =>
+                        if(input(3)= '1') then
+                            s <= Ad;
+                        elsif(input(2) = '1') then
+                            s <= Pr;
+                        elsif(input(1) = '1') then
+                            s <= St;
+                        else
+                            s <= idle;
+                        end if;
+
+                    when Ad =>
+                        if(input(3) <= '1') then
+                            s <= Ad;
+                        else
+                            s <= idle;
+                        end if;
+                    
+                    when Pr =>
+                        if(input(3) = '1') then
+                            s <= PAW;
+                        elsif(input(2) = '1') then
+                            s <= Pr;
+                        else
+                            s <= idle;
+                        end if;
+                    
+                    when Re =>
+                        if(input(3) = '1') then
+                            s <= RAW;
+                        elsif(input(2) = '1') then
+                            s <= RPW;
+                        elsif(input(1) = '1') then
+                            s <= Re;
+                        else
+                            s <= idle;
+                        end if;
+
+                    when St =>
+                        if(input(3) = '1') then
+                            s <= SAW;
+                        elsif(input(2) = '1') then
+                            s <= SPW;
+                        elsif(input(1) = '1') then
+                            s <= SRW;
+                        else
+                            s <= idle;
+                        end if;
+
+                    when PAW =>
+                        if(input(3) = '1') then
+                            if(n = 150000000) then
+                                n <= 1;
+                                s <= Ad;
+                            else
+                                n <= n + 1;
+                                s <= PAW;
+                            end if;
+                        elsif(input(2) = '1') then
+                            s <= Pr;
+                            n <= 1;
+                        else
+                            s <= idle;
+                            n <= 1;
+                        end if;
+
+                    when RAW =>
+                        if(input(3) = '1') then
+                            if(n = 150000000) then
+                                n <= 1;
+                                s <= Ad;
+                            else
+                                n <= n + 1;
+                                s <= RAW;
+                            end if;
+                        elsif(input(2) = '1') then
+                            s <= RPW;
+                            n <= n + 1;
+                        elsif(input(1) = '1') then
+                            s <= Re;
+                            n <= 1;
+                        else
+                            s <= idle;
+                            n <= 1;
+                        end if;
+                    
+                    when RPW =>
+                        if(input(3) = '1') then
+                            s <= RAW;
+                            n <= n + 1;
+                        elsif(input(2) = '1') then
+                            if(n = 150000000) then
+                                n <= 1;
+                                s <= Pr;
+                            else
+                                n <= n + 1;
+                                s <= RPW;
+                            end if;
+                        elsif(input(1) = '1') then
+                            s <= Re;
+                            n <= 1;
+                        else
+                            s <= idle;
+                            n <= 1;
+                        end if;    
+                    
+                    when SAW =>
+                        if(input(3) = '1') then
+                            if(n = 150000000) then
+                                n <= 1;
+                                s <= Ad;
+                            else
+                                n <= n + 1;
+                                s <= SAW;
+                            end if;
+                        elsif(input(2) = '1') then
+                            s <= SPW;
+                            n <= n + 1;
+                        elsif(input(1) = '1') then
+                            s <= SRW;
+                            n <= n + 1;
+                        elsif(input(0) = '1') then
+                            s <= St;
+                            n <= 1;
+                        else
+                            s <= idle;
+                            n <= 1;
+                        end if;
+                    
+                    when SPW =>
+                        if(input(3) = '1') then
+                            s <= SAW;
+                            n <= n + 1;
+                        elsif(input(2) = '1') then
+                            if(n = 150000000) then
+                                n <= 1;
+                                s <= Pr;
+                            else
+                                n <= n + 1;
+                                s <= SPW;
+                            end if;
+                        elsif(input(1) = '1') then
+                            s <= SRW;
+                            n <= n + 1;
+                        elsif(input(0) = '1') then
+                            s <= St;
+                            n <= 1;
+                        else
+                            s <= idle;
+                            n <= 1;
+                        end if;
+                    
+                    when SRW =>
+                        if(input(3) = '1') then
+                            s <= SAW;
+                            n <= n + 1;
+                        elsif(input(2) = '1') then
+                            s <= SPW;
+                            n <= n + 1;
+                        elsif(input(1) = '1') then
+                            if(n = 150000000) then
+                                n <= 1;
+                                s <= Re;
+                            else
+                                n <= n + 1;
+                                s <= SRW;
+                            end if;
+                        elsif(input(0) = '1') then
+                            s <= St;
+                            n <= 1;
+                        else
+                            s <= idle;
+                            n <= 1;
+                        end if;
+                end case;
+        end if;
+		end process;
+
+		outpproc_proc:process(clock, s)
+		begin
+            case s is
+                when Ad =>
+                    outp <= "1000000";
+                when Pr =>
+                    outp <= "0100000";
+                when Re=>
+                    outp <= "0010000";
+                when St=>
+                    outp <= "0001000";
+                when PAW=>
+                    outp <= "0100111";
+                when RAW|RPW=>
+                    outp <= "0010111";
+                when SAW|SPW|SRW=>
+                    outp <= "0001111";
+            end case;
+        end process;
+end bhv;

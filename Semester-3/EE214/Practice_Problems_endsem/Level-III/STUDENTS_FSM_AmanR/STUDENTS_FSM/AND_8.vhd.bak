@@ -1,0 +1,15 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+library work;
+use work.Gates.all;
+
+entity AND_8 is
+	port (A,B,C,D,E,F,G,H : in std_logic; Y : out std_logic);
+end AND_8;
+
+architecture BHV of AND_8 is
+
+begin
+	Y <= A and B and C and D and E and F and G and H;
+end BHV;

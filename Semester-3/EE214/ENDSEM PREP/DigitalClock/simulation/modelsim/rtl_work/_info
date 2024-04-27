@@ -1,0 +1,172 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/ENDSEM PRACTICE/DigitalClock/simulation/modelsim
+Ebin2hex
+Z1 w1699380426
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/ENDSEM PRACTICE/DigitalClock/bin2hex.vhdl
+Z5 FC:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/ENDSEM PRACTICE/DigitalClock/bin2hex.vhdl
+l0
+L4
+VgZ1mV[4ohmDN=9927ZU@:2
+!s100 l1>15gDG_CH6MN_>`45Ja2
+Z6 OV;C;10.5b;63
+31
+Z7 !s110 1699380985
+!i10b 1
+Z8 !s108 1699380985.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/ENDSEM PRACTICE/DigitalClock/bin2hex.vhdl|
+Z10 !s107 C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/ENDSEM PRACTICE/DigitalClock/bin2hex.vhdl|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+DEx4 work 7 bin2hex 0 22 gZ1mV[4ohmDN=9927ZU@:2
+l12
+L11
+V;3iGR`oYj76>GOj7@JKfH2
+!s100 5eZh7Ql5[z9[`gS[Jd<lB1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eclk_div
+Z13 w1699380830
+Z14 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z15 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R2
+R3
+R0
+Z16 8C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/ENDSEM PRACTICE/DigitalClock/clk_div.vhdl
+Z17 FC:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/ENDSEM PRACTICE/DigitalClock/clk_div.vhdl
+l0
+L5
+V:EBb29f`aI5:;USI[MdmM1
+!s100 S1]FP9P?@h?68gI3^YO061
+R6
+31
+R7
+!i10b 1
+R8
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/ENDSEM PRACTICE/DigitalClock/clk_div.vhdl|
+Z19 !s107 C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/ENDSEM PRACTICE/DigitalClock/clk_div.vhdl|
+!i113 1
+R11
+R12
+Abehavioral
+R14
+R15
+R2
+R3
+DEx4 work 7 clk_div 0 22 :EBb29f`aI5:;USI[MdmM1
+l14
+L12
+V40V8O?R_7aYfD5FGIDa[B3
+!s100 MLD;8[YEOjJeMQ_nQQ1fo1
+R6
+31
+R7
+!i10b 1
+R8
+R18
+R19
+!i113 1
+R11
+R12
+Edigital_clock
+Z20 w1699380887
+Z21 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R2
+R3
+R0
+Z22 8C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/ENDSEM PRACTICE/DigitalClock/digital_clock.vhdl
+Z23 FC:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/ENDSEM PRACTICE/DigitalClock/digital_clock.vhdl
+l0
+L5
+Vaj8oG_BUMP86dDm7ajG0]0
+!s100 fn6SK[[?MRm4=8gN_EQQo1
+R6
+31
+Z24 !s110 1699380986
+!i10b 1
+Z25 !s108 1699380986.000000
+Z26 !s90 -reportprogress|300|-93|-work|work|C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/ENDSEM PRACTICE/DigitalClock/digital_clock.vhdl|
+Z27 !s107 C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/ENDSEM PRACTICE/DigitalClock/digital_clock.vhdl|
+!i113 1
+R11
+R12
+Abehavioral
+R21
+R2
+R3
+DEx4 work 13 digital_clock 0 22 aj8oG_BUMP86dDm7ajG0]0
+l58
+L36
+VG9M:@LiJo<DU[lGBn2>k_2
+!s100 AR:zWE]V`oG4f2QVGDlKN1
+R6
+31
+R24
+!i10b 1
+R25
+R26
+R27
+!i113 1
+R11
+R12
+Etb_digital_clock
+Z28 w1699380737
+R2
+R3
+R0
+Z29 8C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/ENDSEM PRACTICE/DigitalClock/tb_digital_clock.vhdl
+Z30 FC:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/ENDSEM PRACTICE/DigitalClock/tb_digital_clock.vhdl
+l0
+L4
+VBAK6I5UMLhD:Ae35>]<h43
+!s100 fChGEjazmGc:^>EHWBVQI0
+R6
+31
+R24
+!i10b 1
+R25
+Z31 !s90 -reportprogress|300|-93|-work|work|C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/ENDSEM PRACTICE/DigitalClock/tb_digital_clock.vhdl|
+Z32 !s107 C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/ENDSEM PRACTICE/DigitalClock/tb_digital_clock.vhdl|
+!i113 1
+R11
+R12
+Abehavior
+R2
+R3
+DEx4 work 16 tb_digital_clock 0 22 BAK6I5UMLhD:Ae35>]<h43
+l38
+L7
+VXjD7Gm9b7E`191OEDDZDV2
+!s100 chHeUIzW@3`FK:X8MNWge2
+R6
+31
+R24
+!i10b 1
+R25
+R31
+R32
+!i113 1
+R11
+R12

@@ -1,0 +1,37 @@
+|DUT
+input_vector[0] => Sequence_generator_stru_dataflow:add_instance.clock
+input_vector[1] => Sequence_generator_stru_dataflow:add_instance.reset
+output_vector[0] << Sequence_generator_stru_dataflow:add_instance.y
+
+
+|DUT|Sequence_generator_stru_dataflow:add_instance
+reset => dff_set:dff0.set
+reset => dff_reset:dff1.reset
+reset => dff_reset:dff2.reset
+clock => dff_set:dff0.clock
+clock => dff_reset:dff1.clock
+clock => dff_reset:dff2.clock
+y <= dff_set:dff0.Q
+
+
+|DUT|Sequence_generator_stru_dataflow:add_instance|dff_set:dff0
+D => Q~reg0.DATAIN
+clock => Q~reg0.CLK
+set => Q~reg0.PRESET
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Sequence_generator_stru_dataflow:add_instance|dff_reset:dff1
+D => Q~reg0.DATAIN
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Sequence_generator_stru_dataflow:add_instance|dff_reset:dff2
+D => Q~reg0.DATAIN
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

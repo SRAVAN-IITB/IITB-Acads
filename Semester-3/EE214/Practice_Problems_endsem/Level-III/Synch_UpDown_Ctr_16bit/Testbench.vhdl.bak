@@ -1,0 +1,33 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity Testbench is
+end Testbench;
+
+architecture TB_BHV of Testbench is
+	component Synch_UpDown_Ctr_16bit is
+		PORT(Clock, Enable, Preset, Reset : in std_logic;
+			Counter : out std_logic_vector(15 downto 0));
+	end component Synch_UpDown_Ctr_16bit;
+	
+	signal Clock : in std_logic := '0';
+	signal Enable, Preset, Reset : in std_logic;
+	signal Counter : std_logic_vector(15 downto 0);
+	
+	begin
+		counterInst : Synch_UpDown_Ctr_16bit PORT MAP(Clock, Enable, Preset, Reset, Counter);
+		
+	preset <= '1', '0' after 30ns;
+	reset	 <= '1', '0' after 15ns;
+	clock  <= not(clock) after 10ns;
+	Enable <= '1';
+	
+	end_sim : process
+		 begin
+			wait for 400ns;
+			ASSERT false
+			REPORT "Sim ended"
+			SEVERITY Failure;
+	end process end_sim;
+	
+end TB_BHV;

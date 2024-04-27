@@ -1,0 +1,114 @@
+|DUT
+input_vector[0] => prime_det:add_instance.in0
+input_vector[1] => prime_det:add_instance.in1
+input_vector[2] => prime_det:add_instance.in2
+input_vector[3] => prime_det:add_instance.in3
+input_vector[4] => prime_det:add_instance.in4
+output_vector[0] << prime_det:add_instance.Y0
+
+
+|DUT|prime_det:add_instance
+in4 => INVERTER:x4inv.A
+in4 => OR_2:x03or.B
+in4 => AND_3:anding3.A
+in3 => INVERTER:x3inv.A
+in3 => OR_2:x03or.A
+in3 => XNOR_2:XNOR1.A
+in2 => INVERTER:x2inv.A
+in2 => XNOR_2:XNOR1.B
+in2 => AND_3:AND2n10.A
+in2 => OR_4:OR3210.B
+in1 => INVERTER:x1inv.A
+in1 => AND_2:x2inv_x1AND.B
+in1 => OR_4:OR3210.C
+in0 => AND_3:AND2n10.B
+in0 => OR_4:OR3210.D
+in0 => AND_3:anding3.B
+Y0 <= OR_3:finalORRING.Y
+
+
+|DUT|prime_det:add_instance|INVERTER:x1inv
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|prime_det:add_instance|INVERTER:x2inv
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|prime_det:add_instance|INVERTER:x3inv
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|prime_det:add_instance|INVERTER:x4inv
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|prime_det:add_instance|OR_2:x03or
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|prime_det:add_instance|XNOR_2:XNOR1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|prime_det:add_instance|AND_2:x2inv_x1AND
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|prime_det:add_instance|AND_2:AND2103
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|prime_det:add_instance|AND_3:AND2n10
+A => Y.IN0
+B => Y.IN1
+C => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|prime_det:add_instance|OR_2:orringforX4bar
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|prime_det:add_instance|OR_4:OR3210
+A => Y.IN0
+B => Y.IN1
+C => Y.IN1
+D => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|prime_det:add_instance|OR_2:orringX4bar
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|prime_det:add_instance|AND_3:anding3
+A => Y.IN0
+B => Y.IN1
+C => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|prime_det:add_instance|OR_3:finalORRING
+A => Y.IN0
+B => Y.IN1
+C => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+

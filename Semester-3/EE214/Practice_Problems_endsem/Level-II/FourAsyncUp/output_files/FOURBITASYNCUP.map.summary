@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Sat Nov 04 23:15:23 2023
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : FOURBITASYNCUP
+Top-level Entity Name : FourBitAsyncUp
+Family : MAX 10
+Total logic elements : 11
+    Total combinational functions : 11
+    Dedicated logic registers : 4
+Total registers : 4
+Total pins : 8
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

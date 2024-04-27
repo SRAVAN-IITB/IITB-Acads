@@ -1,0 +1,29 @@
+library ieee;
+use ieee.std_logic_1164.all;
+library work;
+use work.Gates.all;
+
+entity compare_fourbit is
+port (X, Y: in std_logic_vector(3 downto 0); S : out std_logic_vector(3 downto 0));
+end entity compare_fourbit;
+
+architecture Struct of compare_fourbit is
+--TO BE CHECKED!
+signal car, Z, N, V, L, G : std_logic := '0';
+
+component Fourbit_AdderSubtractor is
+port (A3, A2, A1, A0, B3, B2, B1, B0, M: in std_logic; Cout, S3, S2, S1, S0 : out std_logic);
+end component;
+
+begin
+  --component instances
+  --M <= '1';
+  Subtract: Fourbit_AdderSubtractor PORT MAP (A3 => X(3), A2 => X(2), A1 => X(1), A0 => X(0), 
+													B3 => Y(3), B2 => Y(2), B1 => Y(1), B0 => Y(0), M => '1'; 
+													Cout => car, S3 => S(3), S2 => S(2), S1 => S(1), S0 => S(0));
+	checkEq : NAND_4 PORT MAP (A => S(3), B => S(2), C => S(1), D => S(0), Y => Z);
+	checkNEG : AND_2 PORT MAP (A => S(3), B => S(3), Y => N);
+	checkOvF : XOR_2 PORT MAP (A => S(3), B => X(3), Y => V);
+   Lessthan : OR_2 PORT MAP (A => N, B => Z, Y => L);
+	Greaterthan : XOR_2 PORT MAP (A => '1', B => N, Y => G);
+  end Struct;

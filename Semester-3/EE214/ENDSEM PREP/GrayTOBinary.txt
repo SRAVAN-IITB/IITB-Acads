@@ -1,0 +1,16 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+entity gray2binary is
+Port ( g : in STD_LOGIC_VECTOR (3 downto 0);
+b : out STD_LOGIC_VECTOR (3 downto 0));
+end gray2binary;
+
+architecture Behavioral of gray2binary is
+begin
+b(3)<= g(3);
+b(2)<= g(3) xor g(2);
+b(1)<= g(3) xor g(2) xor g(1);
+b(0)<= g(3) xor g(2) xor g(1) xor g(0);
+end behavioral;

@@ -1,0 +1,31 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity TFF1 is
+Port ( t,clk,rst : in STD_LOGIC;
+q : inout STD_LOGIC);
+end TFF1;
+
+architecture Behavioral of TFF1 is
+signal div:std_logic_vector(22 downto 0);
+signal clkd:std_logic;
+begin
+process(clk)
+begin
+if rising_edge(clk)then
+div<= div+1;
+end if;
+end process;
+clkd<=div(20);
+process(clkd,rst)
+begin
+if(rst='1')then
+q<='0';
+elsif (clkd'event and clkd='1' and t='1') then
+q<= not q;
+else q<=q;
+end if;
+end process;
+end Behavioral;

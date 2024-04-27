@@ -1,0 +1,12 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity Synch_Down_Ctr_4bit is
+	PORT(clock : in std_logic; Q, QBar : out std_logic);
+end Synch_Down_Ctr_4bit;
+
+architecture STRUCT of Synch_Down_Ctr_4bit is
+	signal 
+	begin
+
+end STRUCT;

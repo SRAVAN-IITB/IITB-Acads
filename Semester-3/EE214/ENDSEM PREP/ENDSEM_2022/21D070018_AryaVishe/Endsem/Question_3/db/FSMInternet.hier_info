@@ -1,0 +1,34 @@
+|FSMInternet
+b[0] => Equal0.IN3
+b[0] => Equal1.IN3
+b[0] => Equal2.IN2
+b[0] => Equal3.IN3
+b[1] => Equal0.IN2
+b[1] => Equal1.IN2
+b[1] => Equal2.IN3
+b[1] => Equal3.IN2
+b[2] => only_process.IN0
+b[2] => Equal0.IN1
+b[2] => Equal1.IN1
+b[2] => Equal2.IN1
+b[2] => Equal3.IN1
+b[3] => next_state.OUTPUTSELECT
+b[3] => next_state.OUTPUTSELECT
+b[3] => next_state.DATAA
+b[3] => Selector4.IN4
+b[3] => Selector5.IN5
+b[3] => Equal0.IN0
+b[3] => Equal1.IN0
+b[3] => Equal2.IN0
+b[3] => Equal3.IN0
+b[3] => only_process.IN1
+b[3] => Selector0.IN4
+b[3] => next_state.DATAA
+clock => present_state~1.DATAIN
+led[0] <= led[0].DB_MAX_OUTPUT_PORT_TYPE
+led[1] <= led.DB_MAX_OUTPUT_PORT_TYPE
+led[2] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+led[3] <= led.DB_MAX_OUTPUT_PORT_TYPE
+led[4] <= led[4].DB_MAX_OUTPUT_PORT_TYPE
+
+

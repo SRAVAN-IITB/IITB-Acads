@@ -1,0 +1,35 @@
+library ieee;
+use ieee.std_logic_1164.all;
+library work;
+use work.Gates.all;
+
+entity Full_subtractor is
+port (A, B, C: in std_logic; Dif, Bor: out std_logic);
+end entity Full_subtractor;
+
+architecture Struct of Full_subtractor is
+signal mid1, mid2, mid3, mid4, AXORB : std_logic;
+
+component XOR_gate is
+port (A, B: in std_logic; Y: out std_logic);
+end component;
+
+component OR_gate is
+port (A, B: in std_logic; Y: out std_logic);
+end component;
+
+component AND_gate is
+port (A, B: in std_logic; Y: out std_logic);
+end component;
+
+begin
+  --component instances
+  NOR1 : NOR_2 port map (A => A, B => A, Y => mid1);
+  XOR1 : XOR_gate port map (A => B, B => C, Y => mid2);
+  AND1 : AND_gate port map (A => mid1, B => mid2, Y => mid3);
+  AND2 : AND_gate port map (A=>C, B=>B, Y=>mid4);
+  OR1 : OR_gate port map (A=>mid3, B=>mid4, Y=>Bor);
+  --For difference
+  XOR2 : XOR_gate port map (A => A, B => B, Y => AXORB);
+  XOR3 : XOR_gate port map (A => AXORB, B => C, Y => Dif);
+  end Struct;

@@ -1,0 +1,166 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Practice_Problems/Level-II/FourSyncDown/simulation/modelsim
+Ed_flipflop
+Z1 w1698325701
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Practice_Problems/Level-II/FourSyncDown/D_FlipFlop.vhd
+Z5 FC:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Practice_Problems/Level-II/FourSyncDown/D_FlipFlop.vhd
+l0
+L4
+VBF@G=Tan[?><MN=ja>dG?0
+!s100 Ud9lVHmY]FaHzn=N]:]kk2
+Z6 OV;C;10.5b;63
+31
+Z7 !s110 1699125286
+!i10b 1
+Z8 !s108 1699125286.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Practice_Problems/Level-II/FourSyncDown/D_FlipFlop.vhd|
+Z10 !s107 C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Practice_Problems/Level-II/FourSyncDown/D_FlipFlop.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Astruct
+R2
+R3
+DEx4 work 10 d_flipflop 0 22 BF@G=Tan[?><MN=ja>dG?0
+l24
+L12
+V[bGh6biTg6be>^bkX:C0o2
+!s100 fXLQk0IO3=K]IOH<@ME<j3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Efoursyncdown
+Z13 w1699120490
+R2
+R3
+R0
+Z14 8C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Practice_Problems/Level-II/FourSyncDown/FourSyncDown.vhd
+Z15 FC:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Practice_Problems/Level-II/FourSyncDown/FourSyncDown.vhd
+l0
+L4
+Vf1DZ4<9Od2hSO`3i^U;j32
+!s100 Adm@F?R;h2iDf2?`;n`]M1
+R6
+31
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-93|-work|work|C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Practice_Problems/Level-II/FourSyncDown/FourSyncDown.vhd|
+Z17 !s107 C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Practice_Problems/Level-II/FourSyncDown/FourSyncDown.vhd|
+!i113 1
+R11
+R12
+Astruct
+R2
+R3
+DEx4 work 12 foursyncdown 0 22 f1DZ4<9Od2hSO`3i^U;j32
+l22
+L9
+VAICY5L_AiSS5QDF[P_]JE1
+!s100 5jo^cbd67KiFnm3zf>IkM0
+R6
+31
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Ejk_flipflop
+Z18 w1699124798
+R2
+R3
+R0
+Z19 8C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Practice_Problems/Level-II/FourSyncDown/JK_FlipFlop.vhdl
+Z20 FC:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Practice_Problems/Level-II/FourSyncDown/JK_FlipFlop.vhdl
+l0
+L4
+V;LCjLl[4F[M15L<ha]<M:0
+!s100 RKbGMkk?ged^XFUa72TEH1
+R6
+31
+Z21 !s110 1699125287
+!i10b 1
+R8
+Z22 !s90 -reportprogress|300|-93|-work|work|C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Practice_Problems/Level-II/FourSyncDown/JK_FlipFlop.vhdl|
+Z23 !s107 C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Practice_Problems/Level-II/FourSyncDown/JK_FlipFlop.vhdl|
+!i113 1
+R11
+R12
+Abehav
+R2
+R3
+DEx4 work 11 jk_flipflop 0 22 ;LCjLl[4F[M15L<ha]<M:0
+l15
+L12
+V5D1C7Y=Dk5<7JR>YKdDc<0
+!s100 TlcO535K>42[EhXNJ3dF20
+R6
+31
+R21
+!i10b 1
+R8
+R22
+R23
+!i113 1
+R11
+R12
+Etestbench
+Z24 w1699125264
+R2
+R3
+R0
+Z25 8C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Practice_Problems/Level-II/FourSyncDown/Testbench.vhd
+Z26 FC:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Practice_Problems/Level-II/FourSyncDown/Testbench.vhd
+l0
+L4
+VbAo@oEFT9HAhzo^`:hC:`2
+!s100 A5gJ5kEgGHZZBj<]1]aa40
+R6
+31
+R21
+!i10b 1
+Z27 !s108 1699125287.000000
+Z28 !s90 -reportprogress|300|-93|-work|work|C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Practice_Problems/Level-II/FourSyncDown/Testbench.vhd|
+Z29 !s107 C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/Practice_Problems/Level-II/FourSyncDown/Testbench.vhd|
+!i113 1
+R11
+R12
+Atb_bhv
+R2
+R3
+DEx4 work 9 testbench 0 22 bAo@oEFT9HAhzo^`:hC:`2
+l17
+L7
+VzfE]c?CGBmKB:a@6C;WgD2
+!s100 DR]U0d[e4Sf>V_71^Q:dE3
+R6
+31
+R21
+!i10b 1
+R27
+R28
+R29
+!i113 1
+R11
+R12

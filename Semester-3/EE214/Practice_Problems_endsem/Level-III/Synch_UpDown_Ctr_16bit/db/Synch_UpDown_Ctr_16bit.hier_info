@@ -1,0 +1,567 @@
+|Synch_UpDown_Ctr_16bit
+Clock => JK_FlipFlop:JK0.Clock
+Clock => JK_FlipFlop:JK:1:JK.Clock
+Clock => JK_FlipFlop:JK:2:JK.Clock
+Clock => JK_FlipFlop:JK:3:JK.Clock
+Clock => JK_FlipFlop:JK:4:JK.Clock
+Clock => JK_FlipFlop:JK:5:JK.Clock
+Clock => JK_FlipFlop:JK:6:JK.Clock
+Clock => JK_FlipFlop:JK:7:JK.Clock
+Clock => JK_FlipFlop:JK:8:JK.Clock
+Clock => JK_FlipFlop:JK:9:JK.Clock
+Clock => JK_FlipFlop:JK:10:JK.Clock
+Clock => JK_FlipFlop:JK:11:JK.Clock
+Clock => JK_FlipFlop:JK:12:JK.Clock
+Clock => JK_FlipFlop:JK:13:JK.Clock
+Clock => JK_FlipFlop:JK:14:JK.Clock
+Clock => JK_FlipFlop:JK:15:JK.Clock
+Enable => JK_FlipFlop:JK0.J
+Enable => JK_FlipFlop:JK0.K
+Enable => JK_FlipFlop:JK0.Enable
+Enable => JK_FlipFlop:JK:1:JK.Enable
+Enable => JK_FlipFlop:JK:2:JK.Enable
+Enable => JK_FlipFlop:JK:3:JK.Enable
+Enable => JK_FlipFlop:JK:4:JK.Enable
+Enable => JK_FlipFlop:JK:5:JK.Enable
+Enable => JK_FlipFlop:JK:6:JK.Enable
+Enable => JK_FlipFlop:JK:7:JK.Enable
+Enable => JK_FlipFlop:JK:8:JK.Enable
+Enable => JK_FlipFlop:JK:9:JK.Enable
+Enable => JK_FlipFlop:JK:10:JK.Enable
+Enable => JK_FlipFlop:JK:11:JK.Enable
+Enable => JK_FlipFlop:JK:12:JK.Enable
+Enable => JK_FlipFlop:JK:13:JK.Enable
+Enable => JK_FlipFlop:JK:14:JK.Enable
+Enable => JK_FlipFlop:JK:15:JK.Enable
+Preset => JK_FlipFlop:JK0.Preset
+Reset => JK_FlipFlop:JK0.Reset
+M => M_OR_QBar[0].IN1
+M => Mbar_OR_Q[0].IN1
+Counter[0] << JK_FlipFlop:JK0.Q
+Counter[1] << JK_FlipFlop:JK:1:JK.Q
+Counter[2] << JK_FlipFlop:JK:2:JK.Q
+Counter[3] << JK_FlipFlop:JK:3:JK.Q
+Counter[4] << JK_FlipFlop:JK:4:JK.Q
+Counter[5] << JK_FlipFlop:JK:5:JK.Q
+Counter[6] << JK_FlipFlop:JK:6:JK.Q
+Counter[7] << JK_FlipFlop:JK:7:JK.Q
+Counter[8] << JK_FlipFlop:JK:8:JK.Q
+Counter[9] << JK_FlipFlop:JK:9:JK.Q
+Counter[10] << JK_FlipFlop:JK:10:JK.Q
+Counter[11] << JK_FlipFlop:JK:11:JK.Q
+Counter[12] << JK_FlipFlop:JK:12:JK.Q
+Counter[13] << JK_FlipFlop:JK:13:JK.Q
+Counter[14] << JK_FlipFlop:JK:14:JK.Q
+Counter[15] << JK_FlipFlop:JK:15:JK.Q
+
+
+|Synch_UpDown_Ctr_16bit|JK_FlipFlop:JK0
+J => temp.OUTPUTSELECT
+K => temp.OUTPUTSELECT
+K => temp.OUTPUTSELECT
+Clock => temp.CLK
+Enable => temp.IN0
+Enable => temp.IN1
+Enable => temp.ENA
+Preset => temp.IN1
+Preset => temp.IN0
+Reset => temp.IN1
+Q <= temp.DB_MAX_OUTPUT_PORT_TYPE
+QBar <= temp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_UpDown_Ctr_16bit|AND_2:\JK:1:andforQ
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_UpDown_Ctr_16bit|AND_2:\JK:1:andforQBar
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_UpDown_Ctr_16bit|OR_2:\JK:1:ORfeedingJK
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_UpDown_Ctr_16bit|JK_FlipFlop:\JK:1:JK
+J => temp.OUTPUTSELECT
+K => temp.OUTPUTSELECT
+K => temp.OUTPUTSELECT
+Clock => temp.CLK
+Enable => temp.IN0
+Enable => temp.IN1
+Enable => temp.ENA
+Preset => temp.IN1
+Preset => temp.IN0
+Reset => temp.IN1
+Q <= temp.DB_MAX_OUTPUT_PORT_TYPE
+QBar <= temp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_UpDown_Ctr_16bit|AND_2:\JK:2:andforQ
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_UpDown_Ctr_16bit|AND_2:\JK:2:andforQBar
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_UpDown_Ctr_16bit|OR_2:\JK:2:ORfeedingJK
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_UpDown_Ctr_16bit|JK_FlipFlop:\JK:2:JK
+J => temp.OUTPUTSELECT
+K => temp.OUTPUTSELECT
+K => temp.OUTPUTSELECT
+Clock => temp.CLK
+Enable => temp.IN0
+Enable => temp.IN1
+Enable => temp.ENA
+Preset => temp.IN1
+Preset => temp.IN0
+Reset => temp.IN1
+Q <= temp.DB_MAX_OUTPUT_PORT_TYPE
+QBar <= temp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_UpDown_Ctr_16bit|AND_2:\JK:3:andforQ
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_UpDown_Ctr_16bit|AND_2:\JK:3:andforQBar
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_UpDown_Ctr_16bit|OR_2:\JK:3:ORfeedingJK
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_UpDown_Ctr_16bit|JK_FlipFlop:\JK:3:JK
+J => temp.OUTPUTSELECT
+K => temp.OUTPUTSELECT
+K => temp.OUTPUTSELECT
+Clock => temp.CLK
+Enable => temp.IN0
+Enable => temp.IN1
+Enable => temp.ENA
+Preset => temp.IN1
+Preset => temp.IN0
+Reset => temp.IN1
+Q <= temp.DB_MAX_OUTPUT_PORT_TYPE
+QBar <= temp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_UpDown_Ctr_16bit|AND_2:\JK:4:andforQ
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_UpDown_Ctr_16bit|AND_2:\JK:4:andforQBar
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_UpDown_Ctr_16bit|OR_2:\JK:4:ORfeedingJK
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_UpDown_Ctr_16bit|JK_FlipFlop:\JK:4:JK
+J => temp.OUTPUTSELECT
+K => temp.OUTPUTSELECT
+K => temp.OUTPUTSELECT
+Clock => temp.CLK
+Enable => temp.IN0
+Enable => temp.IN1
+Enable => temp.ENA
+Preset => temp.IN1
+Preset => temp.IN0
+Reset => temp.IN1
+Q <= temp.DB_MAX_OUTPUT_PORT_TYPE
+QBar <= temp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_UpDown_Ctr_16bit|AND_2:\JK:5:andforQ
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_UpDown_Ctr_16bit|AND_2:\JK:5:andforQBar
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_UpDown_Ctr_16bit|OR_2:\JK:5:ORfeedingJK
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_UpDown_Ctr_16bit|JK_FlipFlop:\JK:5:JK
+J => temp.OUTPUTSELECT
+K => temp.OUTPUTSELECT
+K => temp.OUTPUTSELECT
+Clock => temp.CLK
+Enable => temp.IN0
+Enable => temp.IN1
+Enable => temp.ENA
+Preset => temp.IN1
+Preset => temp.IN0
+Reset => temp.IN1
+Q <= temp.DB_MAX_OUTPUT_PORT_TYPE
+QBar <= temp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_UpDown_Ctr_16bit|AND_2:\JK:6:andforQ
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_UpDown_Ctr_16bit|AND_2:\JK:6:andforQBar
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_UpDown_Ctr_16bit|OR_2:\JK:6:ORfeedingJK
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_UpDown_Ctr_16bit|JK_FlipFlop:\JK:6:JK
+J => temp.OUTPUTSELECT
+K => temp.OUTPUTSELECT
+K => temp.OUTPUTSELECT
+Clock => temp.CLK
+Enable => temp.IN0
+Enable => temp.IN1
+Enable => temp.ENA
+Preset => temp.IN1
+Preset => temp.IN0
+Reset => temp.IN1
+Q <= temp.DB_MAX_OUTPUT_PORT_TYPE
+QBar <= temp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_UpDown_Ctr_16bit|AND_2:\JK:7:andforQ
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_UpDown_Ctr_16bit|AND_2:\JK:7:andforQBar
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_UpDown_Ctr_16bit|OR_2:\JK:7:ORfeedingJK
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_UpDown_Ctr_16bit|JK_FlipFlop:\JK:7:JK
+J => temp.OUTPUTSELECT
+K => temp.OUTPUTSELECT
+K => temp.OUTPUTSELECT
+Clock => temp.CLK
+Enable => temp.IN0
+Enable => temp.IN1
+Enable => temp.ENA
+Preset => temp.IN1
+Preset => temp.IN0
+Reset => temp.IN1
+Q <= temp.DB_MAX_OUTPUT_PORT_TYPE
+QBar <= temp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_UpDown_Ctr_16bit|AND_2:\JK:8:andforQ
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_UpDown_Ctr_16bit|AND_2:\JK:8:andforQBar
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_UpDown_Ctr_16bit|OR_2:\JK:8:ORfeedingJK
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_UpDown_Ctr_16bit|JK_FlipFlop:\JK:8:JK
+J => temp.OUTPUTSELECT
+K => temp.OUTPUTSELECT
+K => temp.OUTPUTSELECT
+Clock => temp.CLK
+Enable => temp.IN0
+Enable => temp.IN1
+Enable => temp.ENA
+Preset => temp.IN1
+Preset => temp.IN0
+Reset => temp.IN1
+Q <= temp.DB_MAX_OUTPUT_PORT_TYPE
+QBar <= temp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_UpDown_Ctr_16bit|AND_2:\JK:9:andforQ
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_UpDown_Ctr_16bit|AND_2:\JK:9:andforQBar
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_UpDown_Ctr_16bit|OR_2:\JK:9:ORfeedingJK
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_UpDown_Ctr_16bit|JK_FlipFlop:\JK:9:JK
+J => temp.OUTPUTSELECT
+K => temp.OUTPUTSELECT
+K => temp.OUTPUTSELECT
+Clock => temp.CLK
+Enable => temp.IN0
+Enable => temp.IN1
+Enable => temp.ENA
+Preset => temp.IN1
+Preset => temp.IN0
+Reset => temp.IN1
+Q <= temp.DB_MAX_OUTPUT_PORT_TYPE
+QBar <= temp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_UpDown_Ctr_16bit|AND_2:\JK:10:andforQ
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_UpDown_Ctr_16bit|AND_2:\JK:10:andforQBar
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_UpDown_Ctr_16bit|OR_2:\JK:10:ORfeedingJK
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_UpDown_Ctr_16bit|JK_FlipFlop:\JK:10:JK
+J => temp.OUTPUTSELECT
+K => temp.OUTPUTSELECT
+K => temp.OUTPUTSELECT
+Clock => temp.CLK
+Enable => temp.IN0
+Enable => temp.IN1
+Enable => temp.ENA
+Preset => temp.IN1
+Preset => temp.IN0
+Reset => temp.IN1
+Q <= temp.DB_MAX_OUTPUT_PORT_TYPE
+QBar <= temp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_UpDown_Ctr_16bit|AND_2:\JK:11:andforQ
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_UpDown_Ctr_16bit|AND_2:\JK:11:andforQBar
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_UpDown_Ctr_16bit|OR_2:\JK:11:ORfeedingJK
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_UpDown_Ctr_16bit|JK_FlipFlop:\JK:11:JK
+J => temp.OUTPUTSELECT
+K => temp.OUTPUTSELECT
+K => temp.OUTPUTSELECT
+Clock => temp.CLK
+Enable => temp.IN0
+Enable => temp.IN1
+Enable => temp.ENA
+Preset => temp.IN1
+Preset => temp.IN0
+Reset => temp.IN1
+Q <= temp.DB_MAX_OUTPUT_PORT_TYPE
+QBar <= temp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_UpDown_Ctr_16bit|AND_2:\JK:12:andforQ
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_UpDown_Ctr_16bit|AND_2:\JK:12:andforQBar
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_UpDown_Ctr_16bit|OR_2:\JK:12:ORfeedingJK
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_UpDown_Ctr_16bit|JK_FlipFlop:\JK:12:JK
+J => temp.OUTPUTSELECT
+K => temp.OUTPUTSELECT
+K => temp.OUTPUTSELECT
+Clock => temp.CLK
+Enable => temp.IN0
+Enable => temp.IN1
+Enable => temp.ENA
+Preset => temp.IN1
+Preset => temp.IN0
+Reset => temp.IN1
+Q <= temp.DB_MAX_OUTPUT_PORT_TYPE
+QBar <= temp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_UpDown_Ctr_16bit|AND_2:\JK:13:andforQ
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_UpDown_Ctr_16bit|AND_2:\JK:13:andforQBar
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_UpDown_Ctr_16bit|OR_2:\JK:13:ORfeedingJK
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_UpDown_Ctr_16bit|JK_FlipFlop:\JK:13:JK
+J => temp.OUTPUTSELECT
+K => temp.OUTPUTSELECT
+K => temp.OUTPUTSELECT
+Clock => temp.CLK
+Enable => temp.IN0
+Enable => temp.IN1
+Enable => temp.ENA
+Preset => temp.IN1
+Preset => temp.IN0
+Reset => temp.IN1
+Q <= temp.DB_MAX_OUTPUT_PORT_TYPE
+QBar <= temp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_UpDown_Ctr_16bit|AND_2:\JK:14:andforQ
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_UpDown_Ctr_16bit|AND_2:\JK:14:andforQBar
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_UpDown_Ctr_16bit|OR_2:\JK:14:ORfeedingJK
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_UpDown_Ctr_16bit|JK_FlipFlop:\JK:14:JK
+J => temp.OUTPUTSELECT
+K => temp.OUTPUTSELECT
+K => temp.OUTPUTSELECT
+Clock => temp.CLK
+Enable => temp.IN0
+Enable => temp.IN1
+Enable => temp.ENA
+Preset => temp.IN1
+Preset => temp.IN0
+Reset => temp.IN1
+Q <= temp.DB_MAX_OUTPUT_PORT_TYPE
+QBar <= temp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_UpDown_Ctr_16bit|AND_2:\JK:15:andforQ
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_UpDown_Ctr_16bit|AND_2:\JK:15:andforQBar
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_UpDown_Ctr_16bit|OR_2:\JK:15:ORfeedingJK
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Synch_UpDown_Ctr_16bit|JK_FlipFlop:\JK:15:JK
+J => temp.OUTPUTSELECT
+K => temp.OUTPUTSELECT
+K => temp.OUTPUTSELECT
+Clock => temp.CLK
+Enable => temp.IN0
+Enable => temp.IN1
+Enable => temp.ENA
+Preset => temp.IN1
+Preset => temp.IN0
+Reset => temp.IN1
+Q <= temp.DB_MAX_OUTPUT_PORT_TYPE
+QBar <= temp.DB_MAX_OUTPUT_PORT_TYPE
+
+

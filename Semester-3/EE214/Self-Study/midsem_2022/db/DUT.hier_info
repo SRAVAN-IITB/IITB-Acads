@@ -1,0 +1,412 @@
+|DUT
+input_vector[0] => compare_fourbit:add_instance.Y[0]
+input_vector[1] => compare_fourbit:add_instance.Y[1]
+input_vector[2] => compare_fourbit:add_instance.Y[2]
+input_vector[3] => compare_fourbit:add_instance.Y[3]
+input_vector[4] => compare_fourbit:add_instance.X[0]
+input_vector[5] => compare_fourbit:add_instance.X[1]
+input_vector[6] => compare_fourbit:add_instance.X[2]
+input_vector[7] => compare_fourbit:add_instance.X[3]
+output_vector[0] << compare_fourbit:add_instance.G
+output_vector[1] << compare_fourbit:add_instance.L
+output_vector[2] << compare_fourbit:add_instance.V
+output_vector[3] << compare_fourbit:add_instance.N
+output_vector[4] << compare_fourbit:add_instance.Z
+
+
+|DUT|compare_fourbit:add_instance
+X[0] => Fourbit_AdderSubtractor:Subtract.A0
+X[1] => Fourbit_AdderSubtractor:Subtract.A1
+X[2] => Fourbit_AdderSubtractor:Subtract.A2
+X[3] => Fourbit_AdderSubtractor:Subtract.A3
+X[3] => INVERTER:X3Bar.A
+X[3] => AND_3:checkOvF2.A
+Y[0] => Fourbit_AdderSubtractor:Subtract.B0
+Y[1] => Fourbit_AdderSubtractor:Subtract.B1
+Y[2] => Fourbit_AdderSubtractor:Subtract.B2
+Y[3] => Fourbit_AdderSubtractor:Subtract.B3
+Y[3] => INVERTER:Y3Bar.A
+Y[3] => AND_3:checkOvF1.C
+Z <= AND_2:Retrieve_Z.Y
+N <= AND_2:Retrieve_N.Y
+V <= AND_2:Retrieve_V.Y
+L <= AND_2:Retrieve_L.Y
+G <= OR_2:Greaterthan.Y
+
+
+|DUT|compare_fourbit:add_instance|Fourbit_AdderSubtractor:Subtract
+A3 => Full_adder:Full_adder_3.B
+A2 => Full_adder:Full_adder_2.B
+A1 => Full_adder:Full_adder_1.B
+A0 => Full_adder:Full_adder_0.B
+B3 => XOR_2:XORR4.B
+B2 => XOR_2:XORR3.B
+B1 => XOR_2:XORR2.B
+B0 => XOR_2:XORR1.B
+M => XOR_2:XORR1.A
+M => XOR_2:XORR2.A
+M => XOR_2:XORR3.A
+M => XOR_2:XORR4.A
+M => Full_adder:Full_adder_0.C
+Cout <= Full_adder:Full_adder_3.Cout
+S3 <= Full_adder:Full_adder_3.Sum
+S2 <= Full_adder:Full_adder_2.Sum
+S1 <= Full_adder:Full_adder_1.Sum
+S0 <= Full_adder:Full_adder_0.Sum
+
+
+|DUT|compare_fourbit:add_instance|Fourbit_AdderSubtractor:Subtract|XOR_2:XORR1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|compare_fourbit:add_instance|Fourbit_AdderSubtractor:Subtract|XOR_2:XORR2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|compare_fourbit:add_instance|Fourbit_AdderSubtractor:Subtract|XOR_2:XORR3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|compare_fourbit:add_instance|Fourbit_AdderSubtractor:Subtract|XOR_2:XORR4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|compare_fourbit:add_instance|Fourbit_AdderSubtractor:Subtract|Full_adder:Full_adder_0
+A => XOR_2:XOR1.A
+A => AND_2:AND1.A
+A => AND_2:AND3.B
+B => XOR_2:XOR1.B
+B => AND_2:AND1.B
+B => AND_2:AND2.B
+C => XOR_2:XOR2.B
+C => AND_2:AND2.A
+C => AND_2:AND3.A
+Sum <= XOR_2:XOR2.Y
+Cout <= OR_2:OR2.Y
+
+
+|DUT|compare_fourbit:add_instance|Fourbit_AdderSubtractor:Subtract|Full_adder:Full_adder_0|XOR_2:XOR1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|compare_fourbit:add_instance|Fourbit_AdderSubtractor:Subtract|Full_adder:Full_adder_0|XOR_2:XOR2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|compare_fourbit:add_instance|Fourbit_AdderSubtractor:Subtract|Full_adder:Full_adder_0|AND_2:AND1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|compare_fourbit:add_instance|Fourbit_AdderSubtractor:Subtract|Full_adder:Full_adder_0|AND_2:AND2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|compare_fourbit:add_instance|Fourbit_AdderSubtractor:Subtract|Full_adder:Full_adder_0|AND_2:AND3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|compare_fourbit:add_instance|Fourbit_AdderSubtractor:Subtract|Full_adder:Full_adder_0|OR_2:OR1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|compare_fourbit:add_instance|Fourbit_AdderSubtractor:Subtract|Full_adder:Full_adder_0|OR_2:OR2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|compare_fourbit:add_instance|Fourbit_AdderSubtractor:Subtract|Full_adder:Full_adder_1
+A => XOR_2:XOR1.A
+A => AND_2:AND1.A
+A => AND_2:AND3.B
+B => XOR_2:XOR1.B
+B => AND_2:AND1.B
+B => AND_2:AND2.B
+C => XOR_2:XOR2.B
+C => AND_2:AND2.A
+C => AND_2:AND3.A
+Sum <= XOR_2:XOR2.Y
+Cout <= OR_2:OR2.Y
+
+
+|DUT|compare_fourbit:add_instance|Fourbit_AdderSubtractor:Subtract|Full_adder:Full_adder_1|XOR_2:XOR1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|compare_fourbit:add_instance|Fourbit_AdderSubtractor:Subtract|Full_adder:Full_adder_1|XOR_2:XOR2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|compare_fourbit:add_instance|Fourbit_AdderSubtractor:Subtract|Full_adder:Full_adder_1|AND_2:AND1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|compare_fourbit:add_instance|Fourbit_AdderSubtractor:Subtract|Full_adder:Full_adder_1|AND_2:AND2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|compare_fourbit:add_instance|Fourbit_AdderSubtractor:Subtract|Full_adder:Full_adder_1|AND_2:AND3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|compare_fourbit:add_instance|Fourbit_AdderSubtractor:Subtract|Full_adder:Full_adder_1|OR_2:OR1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|compare_fourbit:add_instance|Fourbit_AdderSubtractor:Subtract|Full_adder:Full_adder_1|OR_2:OR2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|compare_fourbit:add_instance|Fourbit_AdderSubtractor:Subtract|Full_adder:Full_adder_2
+A => XOR_2:XOR1.A
+A => AND_2:AND1.A
+A => AND_2:AND3.B
+B => XOR_2:XOR1.B
+B => AND_2:AND1.B
+B => AND_2:AND2.B
+C => XOR_2:XOR2.B
+C => AND_2:AND2.A
+C => AND_2:AND3.A
+Sum <= XOR_2:XOR2.Y
+Cout <= OR_2:OR2.Y
+
+
+|DUT|compare_fourbit:add_instance|Fourbit_AdderSubtractor:Subtract|Full_adder:Full_adder_2|XOR_2:XOR1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|compare_fourbit:add_instance|Fourbit_AdderSubtractor:Subtract|Full_adder:Full_adder_2|XOR_2:XOR2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|compare_fourbit:add_instance|Fourbit_AdderSubtractor:Subtract|Full_adder:Full_adder_2|AND_2:AND1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|compare_fourbit:add_instance|Fourbit_AdderSubtractor:Subtract|Full_adder:Full_adder_2|AND_2:AND2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|compare_fourbit:add_instance|Fourbit_AdderSubtractor:Subtract|Full_adder:Full_adder_2|AND_2:AND3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|compare_fourbit:add_instance|Fourbit_AdderSubtractor:Subtract|Full_adder:Full_adder_2|OR_2:OR1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|compare_fourbit:add_instance|Fourbit_AdderSubtractor:Subtract|Full_adder:Full_adder_2|OR_2:OR2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|compare_fourbit:add_instance|Fourbit_AdderSubtractor:Subtract|Full_adder:Full_adder_3
+A => XOR_2:XOR1.A
+A => AND_2:AND1.A
+A => AND_2:AND3.B
+B => XOR_2:XOR1.B
+B => AND_2:AND1.B
+B => AND_2:AND2.B
+C => XOR_2:XOR2.B
+C => AND_2:AND2.A
+C => AND_2:AND3.A
+Sum <= XOR_2:XOR2.Y
+Cout <= OR_2:OR2.Y
+
+
+|DUT|compare_fourbit:add_instance|Fourbit_AdderSubtractor:Subtract|Full_adder:Full_adder_3|XOR_2:XOR1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|compare_fourbit:add_instance|Fourbit_AdderSubtractor:Subtract|Full_adder:Full_adder_3|XOR_2:XOR2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|compare_fourbit:add_instance|Fourbit_AdderSubtractor:Subtract|Full_adder:Full_adder_3|AND_2:AND1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|compare_fourbit:add_instance|Fourbit_AdderSubtractor:Subtract|Full_adder:Full_adder_3|AND_2:AND2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|compare_fourbit:add_instance|Fourbit_AdderSubtractor:Subtract|Full_adder:Full_adder_3|AND_2:AND3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|compare_fourbit:add_instance|Fourbit_AdderSubtractor:Subtract|Full_adder:Full_adder_3|OR_2:OR1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|compare_fourbit:add_instance|Fourbit_AdderSubtractor:Subtract|Full_adder:Full_adder_3|OR_2:OR2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|compare_fourbit:add_instance|INVERTER:Y3Bar
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|compare_fourbit:add_instance|INVERTER:X3Bar
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|compare_fourbit:add_instance|INVERTER:S3Bar
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|compare_fourbit:add_instance|OR_4:checkEq1
+A => Y.IN0
+B => Y.IN1
+C => Y.IN1
+D => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|compare_fourbit:add_instance|INVERTER:checkEq2
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|compare_fourbit:add_instance|AND_2:checkNEG
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|compare_fourbit:add_instance|AND_3:checkOvF1
+A => Y.IN0
+B => Y.IN1
+C => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|compare_fourbit:add_instance|AND_3:checkOvF2
+A => Y.IN0
+B => Y.IN1
+C => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|compare_fourbit:add_instance|OR_2:checkOvF3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|compare_fourbit:add_instance|XOR_2:VxorN
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|compare_fourbit:add_instance|AND_2:Zbarcase
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|compare_fourbit:add_instance|OR_2:lessthan
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|compare_fourbit:add_instance|INVERTER:notlessthan
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|compare_fourbit:add_instance|OR_2:Greaterthan
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|compare_fourbit:add_instance|AND_2:Retrieve_Z
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|compare_fourbit:add_instance|AND_2:Retrieve_N
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|compare_fourbit:add_instance|AND_2:Retrieve_V
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|compare_fourbit:add_instance|AND_2:Retrieve_L
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,26 @@
+|D_FlipFlop
+D => JK_FlipFlop:JKFF_Instance.J
+D => JK_FlipFlop:JKFF_Instance.K
+Clock => JK_FlipFlop:JKFF_Instance.Clock
+Enable => JK_FlipFlop:JKFF_Instance.Enable
+Reset => JK_FlipFlop:JKFF_Instance.Reset
+Preset => JK_FlipFlop:JKFF_Instance.Preset
+Q << JK_FlipFlop:JKFF_Instance.Q
+QBar << JK_FlipFlop:JKFF_Instance.QBar
+
+
+|D_FlipFlop|JK_FlipFlop:JKFF_Instance
+J => temp.OUTPUTSELECT
+K => temp.OUTPUTSELECT
+K => temp.OUTPUTSELECT
+Clock => temp.CLK
+Enable => temp.IN0
+Enable => temp.IN1
+Enable => temp.ENA
+Preset => temp.IN1
+Preset => temp.IN0
+Reset => temp.IN1
+Q <= temp.DB_MAX_OUTPUT_PORT_TYPE
+QBar <= temp.DB_MAX_OUTPUT_PORT_TYPE
+
+

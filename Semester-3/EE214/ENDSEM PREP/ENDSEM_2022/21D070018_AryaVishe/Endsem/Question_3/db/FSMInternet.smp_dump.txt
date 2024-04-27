@@ -1,0 +1,9 @@
+
+State Machine - |FSMInternet|present_state
+Name present_state.trans present_state.admin present_state.prof present_state.rese present_state.stud present_state.idle 
+present_state.idle 0 0 0 0 0 0 
+present_state.stud 0 0 0 0 1 1 
+present_state.rese 0 0 0 1 0 1 
+present_state.prof 0 0 1 0 0 1 
+present_state.admin 0 1 0 0 0 1 
+present_state.trans 1 0 0 0 0 1 

@@ -1,0 +1,228 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/PRACTICE/Seq_generator_BTech/simulation/modelsim
+Edff_reset
+Z1 w1695661362
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/PRACTICE/Seq_generator_BTech/Seq_generator.vhdl
+Z5 FC:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/PRACTICE/Seq_generator_BTech/Seq_generator.vhdl
+l0
+L28
+VPMT5mRI8?IW_Mb3E__XGn1
+!s100 NNa30eXK1bdBe8OTSaB1a2
+Z6 OV;C;10.5b;63
+31
+Z7 !s110 1695661384
+!i10b 1
+Z8 !s108 1695661383.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/PRACTICE/Seq_generator_BTech/Seq_generator.vhdl|
+Z10 !s107 C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/PRACTICE/Seq_generator_BTech/Seq_generator.vhdl|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Abehav
+R2
+R3
+DEx4 work 9 dff_reset 0 22 PMT5mRI8?IW_Mb3E__XGn1
+l31
+L30
+VNBY[gk_g@KbT88QhjS`n23
+!s100 MdGeQg]JSiP8ZCX[WV>R71
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Edff_set
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L12
+VI7DzG20f69S8K1fA`G0CI2
+!s100 GnnLbz`I_3fSDYm_FkV193
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Abehav
+R2
+R3
+DEx4 work 7 dff_set 0 22 I7DzG20f69S8K1fA`G0CI2
+l15
+L14
+VJcM5bhHkRFIL8?P[9mlEa2
+!s100 9=6ZRD3FFcoa7MjHW?;h41
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Edut
+Z13 w1694711347
+R2
+R3
+R0
+Z14 8C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/PRACTICE/Seq_generator_BTech/DUT.vhdl
+Z15 FC:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/PRACTICE/Seq_generator_BTech/DUT.vhdl
+l0
+L8
+VJ?bme`[eJ1S?MK`^R]k=;2
+!s100 bR0lkKMnI3U4_2`SX3bH22
+R6
+31
+Z16 !s110 1695661383
+!i10b 1
+R8
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/PRACTICE/Seq_generator_BTech/DUT.vhdl|
+Z18 !s107 C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/PRACTICE/Seq_generator_BTech/DUT.vhdl|
+!i113 1
+R11
+R12
+Adutwrap
+R2
+R3
+DEx4 work 3 dut 0 22 J?bme`[eJ1S?MK`^R]k=;2
+l19
+L13
+VS0H>[KW0k3D:UnbGz7;2X0
+!s100 b_f?IPOgoGKQ4ji<]cDU83
+R6
+31
+R16
+!i10b 1
+R8
+R17
+R18
+!i113 1
+R11
+R12
+Pflipflops
+R2
+R3
+R1
+R0
+R4
+R5
+l0
+L3
+V<B[@b31IaHo;^iHaN2:Cm0
+!s100 DOe:b7AGBQTBz1c5JgcHM3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Esequence_generator_stru_dataflow
+R1
+Z19 DPx4 work 9 flipflops 0 22 <B[@b31IaHo;^iHaN2:Cm0
+R2
+R3
+R0
+R4
+R5
+l0
+L44
+V;>TlD[ZhTkGT3F^V[kEho1
+!s100 iZTgL_]3biKhknZ?j0E^@1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Astruct
+R19
+R2
+R3
+DEx4 work 32 sequence_generator_stru_dataflow 0 22 ;>TlD[ZhTkGT3F^V[kEho1
+l51
+L48
+VhGDzSOF@QeM;ETfzknc6P3
+!s100 oBTQZDzUA`>PfJ:Z`oazE2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Etestbench
+Z20 w1694710736
+R3
+R2
+R0
+Z21 8C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/PRACTICE/Seq_generator_BTech/Testbench.vhdl
+Z22 FC:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/PRACTICE/Seq_generator_BTech/Testbench.vhdl
+l0
+L7
+V]iKK_Z9L:G9B:i8c]3eFH0
+!s100 bWf8kl8zb90X@P1m>V^K20
+R6
+31
+R7
+!i10b 1
+Z23 !s108 1695661384.000000
+Z24 !s90 -reportprogress|300|-93|-work|work|C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/PRACTICE/Seq_generator_BTech/Testbench.vhdl|
+Z25 !s107 C:/Users/ASUS/OneDrive - Indian Institute of Technology Bombay/ACADS/SEMESTER-3/EE-214/PRACTICE/Seq_generator_BTech/Testbench.vhdl|
+!i113 1
+R11
+R12
+Abehave
+R3
+R2
+DEx4 work 9 testbench 0 22 ]iKK_Z9L:G9B:i8c]3eFH0
+l69
+L9
+Vf3hR06N2RGUODQcza;L>I3
+!s100 dD0YcHLNVK^T<[OGFHoM12
+R6
+31
+R7
+!i10b 1
+R23
+R24
+R25
+!i113 1
+R11
+R12

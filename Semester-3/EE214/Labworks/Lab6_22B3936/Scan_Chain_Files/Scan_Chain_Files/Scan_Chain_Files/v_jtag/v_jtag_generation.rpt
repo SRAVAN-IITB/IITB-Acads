@@ -1,0 +1,28 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate /home/saurabh/Documents/nptelws/full_adder/v_jtag.qsys --block-symbol-file --output-directory=/home/saurabh/Documents/nptelws/full_adder/v_jtag --family="MAX V" --part=5M1270ZT144C5
+Progress: Loading full_adder/v_jtag.qsys
+Progress: Reading input file
+Progress: Adding virtual_jtag_0 [altera_virtual_jtag 20.1]
+Progress: Parameterizing module virtual_jtag_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate /home/saurabh/Documents/nptelws/full_adder/v_jtag.qsys --synthesis=VHDL --output-directory=/home/saurabh/Documents/nptelws/full_adder/v_jtag/synthesis --family="MAX V" --part=5M1270ZT144C5
+Progress: Loading full_adder/v_jtag.qsys
+Progress: Reading input file
+Progress: Adding virtual_jtag_0 [altera_virtual_jtag 20.1]
+Progress: Parameterizing module virtual_jtag_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: v_jtag: Generating v_jtag "v_jtag" for QUARTUS_SYNTH
+Info: virtual_jtag_0: "v_jtag" instantiated altera_virtual_jtag "virtual_jtag_0"
+Info: v_jtag: Done "v_jtag" with 2 modules, 1 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

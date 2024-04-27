@@ -1,0 +1,145 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "output_vector[0]",
+					"strict" : false
+				},
+				{
+					"name" : "output_vector[1]",
+					"strict" : false
+				},
+				{
+					"name" : "output_vector[2]",
+					"strict" : false
+				},
+				{
+					"name" : "output_vector[3]",
+					"strict" : false
+				},
+				{
+					"name" : "output_vector[4]",
+					"strict" : false
+				},
+				{
+					"name" : "output_vector[5]",
+					"strict" : false
+				},
+				{
+					"name" : "output_vector[6]",
+					"strict" : false
+				},
+				{
+					"name" : "output_vector[7]",
+					"strict" : false
+				},
+				{
+					"name" : "output_vector[8]",
+					"strict" : false
+				},
+				{
+					"name" : "output_vector[9]",
+					"strict" : false
+				},
+				{
+					"name" : "output_vector[10]",
+					"strict" : false
+				},
+				{
+					"name" : "output_vector[11]",
+					"strict" : false
+				},
+				{
+					"name" : "output_vector[12]",
+					"strict" : false
+				},
+				{
+					"name" : "output_vector[13]",
+					"strict" : false
+				},
+				{
+					"name" : "output_vector[14]",
+					"strict" : false
+				},
+				{
+					"name" : "output_vector[15]",
+					"strict" : false
+				},
+				{
+					"name" : "input_vector[0]",
+					"strict" : false
+				},
+				{
+					"name" : "input_vector[16]",
+					"strict" : false
+				},
+				{
+					"name" : "input_vector[17]",
+					"strict" : false
+				},
+				{
+					"name" : "input_vector[1]",
+					"strict" : false
+				},
+				{
+					"name" : "input_vector[2]",
+					"strict" : false
+				},
+				{
+					"name" : "input_vector[3]",
+					"strict" : false
+				},
+				{
+					"name" : "input_vector[4]",
+					"strict" : false
+				},
+				{
+					"name" : "input_vector[5]",
+					"strict" : false
+				},
+				{
+					"name" : "input_vector[6]",
+					"strict" : false
+				},
+				{
+					"name" : "input_vector[7]",
+					"strict" : false
+				},
+				{
+					"name" : "input_vector[8]",
+					"strict" : false
+				},
+				{
+					"name" : "input_vector[9]",
+					"strict" : false
+				},
+				{
+					"name" : "input_vector[10]",
+					"strict" : false
+				},
+				{
+					"name" : "input_vector[11]",
+					"strict" : false
+				},
+				{
+					"name" : "input_vector[12]",
+					"strict" : false
+				},
+				{
+					"name" : "input_vector[13]",
+					"strict" : false
+				},
+				{
+					"name" : "input_vector[14]",
+					"strict" : false
+				},
+				{
+					"name" : "input_vector[15]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
