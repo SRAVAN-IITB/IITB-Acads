@@ -1,0 +1,5 @@
+1) Read the problem statement.
+
+2) Setup the motor driver circuit (L293D) on the breadboard and interface it with the arduino and the DC motor.
+
+3) Once the connections are made, make sure they are verified by the TAs before switching ON the power supply. 

@@ -1,0 +1,22 @@
+1)  Read the problem statement.
+
+2)  Connect the headphone setup to the function generator and the DSO.
+
+3)  Give a sinusoidal waveform as the input, with frequency varying from 100 Hz - 5000 Hz.
+
+4)  Plot the magnitude and phase response.
+
+5)  Design an amplifier for the system to ensure 20 dB attenuation at 100 Hz for the closed loop system.
+
+6)  Design the compensator for the system for stabilizing it without sacrificing the gain at 100 Hz.
+
+7)  For designing the compensator, plot the bode plot for the transfer function in Matlab, superimpose it 
+    with the system's bode plot to get the cascaded bode plot.
+
+8)  Make sure that the cascaded plot has a gain margin and phase margin of atleast 5 dB and 30 degrees 
+    respectively. 
+
+9)  Tweak the parameters of the transfer function in Matlab till the required specifications are met.
+
+10) Then close the loop and inject the noise as per the closed loop block diagram, measure the output to noise 
+    ratios at 100, 500 and 1000 Hz.

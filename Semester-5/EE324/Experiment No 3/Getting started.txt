@@ -1,0 +1,10 @@
+1) Read the problem statement.
+
+2) Open AVR studio (TAs will help you with the steps for initializing the save file). 
+
+3) Build the Sample code.c and the lcd.c codes in this software. 
+
+4) Go through the hardware and software manual of Spark V to know what all provisions are available for meeting the 
+   objective. 
+
+5) Then keep the bot on the track in different regions and calibrate the potentiometers using a screw driver.

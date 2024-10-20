@@ -1,0 +1,15 @@
+1) Read the problem statement.
+
+2) Read the setup's manual (PendulumSetup_manual.pdf).
+
+3) The matrix parameter values are given in the manual, use them to calculate the elements of the state space matrices (A, B, C and D).
+
+4) Using these matrices, run the LQR program in MATLAB and get the gain values (K1, K2, K3 and K4) by tuning the Q matrix.
+
+5) Use them, along with the state variables to realize the control input to the motor.
+
+
+6) Sample Arduino code for interfacing encoder with arduino and reading the encoder values is provided in the same folder.
+   (refer this link if you want to understand the sample arduino code for inetrfacing and reading encoder values:
+     https://www.cuidevices.com/product/resource/sample-code/amt22)
+
