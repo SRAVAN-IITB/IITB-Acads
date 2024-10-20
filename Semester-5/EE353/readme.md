@@ -1,1 +1,0 @@
-baadme dekh lenge
